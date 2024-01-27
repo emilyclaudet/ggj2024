@@ -13,7 +13,7 @@ label chapter4:
         "Five.":
             #Bashful, fades back to neutral looking away, fades to neutral looking at player] 
             m "Didn’t I tell you flattery will get you nowhere? ... Was that in this reality?"
-    m "Well- Enough dilly dallying and get to where you’re going!"
+    m "Well - Enough dilly dallying and get to where you’re going!"
 
 #friendship bracelets scene
 label chapter4_kagami:
