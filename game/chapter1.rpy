@@ -86,7 +86,7 @@ label chapter1_oswald:
     "You approach the grim bulky figure sitting at the far table."
     show oswald with dissolve
     "He doesn't appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
-    "You’re about to sit down but pause when he glares at you."
+    "You're about to sit down but pause when he glares at you."
     o "You want something boy?"
     menu:
         "Can I try your pipe?":
@@ -98,8 +98,8 @@ label chapter1_oswald:
             o "Keep talking like that boy they only think y'll be eatin is the heel of my Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots."
             "You look down at his feet but you can't really tell what he's wearing, they're just black blobs"
     "You stay silent."
-    o "That’s what I thought punk."
-    o "Scram if ya know what’s good for ya."
+    o "That's what I thought punk."
+    o "Scram if ya know what's good for ya."
     menu:
         "Scram":
             jump chapter1_oswald_optionA
@@ -144,7 +144,7 @@ label chapter1_oswald_optionC:
     "Oswald jumps as Willie clasps his shoulder from behind."
     "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
     o "N-non-nothin boss I was just-"
-    m "hoHO! Of course not! You wouldn’t want to get into any more trouble with me."
+    m "hoHO! Of course not! You wouldn't want to get into any more trouble with me."
     m "Would you Oz?"
     o "N-no Mister Steamboat Warden Willie- sir."
     "Willie pats him on the head and leaves"
@@ -155,7 +155,7 @@ label chapter1_oswald_optionC:
     jump chapter1end
 
 label chapter1_oswald_optionD:
-    "He glares at you. Again. It looks like he’s trying to be more intimidating than before… but it sort of just looks like he’s constipated."
+    "He glares at you. Again. It looks like he's trying to be more intimidating than before… but it sort of just looks like he's constipated."
     "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
     "He inhales too much and starts gagging."
     "You might want to consider this one a lost cause."
@@ -166,7 +166,7 @@ label chapter1_queen:
     menu queen_questions1:
         "What are you in here for?":
             q "I tried making everyone beautiful with 8 arms, like me."
-            q "The whole world was nearly full of my little slave children. If not for that tiny prince’s luck, they all would’ve been mine!"
+            q "The whole world was nearly full of my little slave children. If not for that tiny prince's luck, they all would've been mine!"
             $ queenchoice1 = True
             jump queen_questions1
         "What's your name?":
@@ -178,7 +178,7 @@ label chapter1_queen:
             q "I have 5000 adorable little spider children. They are always hungry."
             jump queen_questions1
         "Tiny prince?" if queenchoice1 and queenchoice2 == True:
-            q "You’re a nosy lost soul aren’t you?"
+            q "You're a nosy lost soul aren't you?"
             jump queen_questions1
         "Stop asking questions":
             jump chapter1_queen_questions2

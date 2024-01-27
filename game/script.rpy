@@ -6,4 +6,4 @@ label start:
     $ playername = playername.strip()
     if playername == "":
         $ playername = "Convict"
-    jump chapter2
+    jump chapter4

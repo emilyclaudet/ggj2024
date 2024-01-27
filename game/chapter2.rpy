@@ -18,7 +18,7 @@ label chapter2:
             #scowl expression
             q "A new maggot like you has no place talking to Mother Arachnificent in such a way."
     menu:
-        "Sorry I meant no disrespect to your evil highness! So you’re a mother?":
+        "Sorry I meant no disrespect to your evil highness! So you're a mother?":
             q "I am mother to over 5000 little spider children. They will eat anyone, they have a lovely appetite."
             #sly expression
             q "I miss those little darlings."
@@ -61,6 +61,8 @@ label chapter2_mopping:
     scene black with dissolve
     show warden with dissolve
     m "Now that the trash has been cleared it's time to mop some floors! Have a swell ol time ha ha!"
+    hide warden with dissolve
+    show queen with dissolve
     #show queen annoyed
     q "Finally this hell will be over soon! I cannot have my fair webs in a tangle from all this muck!!"
     #show queen smile
@@ -91,15 +93,15 @@ label chapter2_ending:
     menu:
         "I love you for being a villainous spider queen":
             q "..."
-        "I wouldn’t want anyone else":
+        "I wouldn't want anyone else":
             q "..."
-        "Why can’t villains have a love story?":
+        "Why can't villains have a love story?":
             q "..."
     q "I already have my little babies…will there really be room for you in all this?"
     menu:
-        "I’m great with kids":
+        "I'm great with kids":
             q "Fuhuhuh you are trying too hard."
-    "We’re in prison, we might as well enjoy our time here."
+    p "We're in prison, we might as well enjoy our time here."
     q "You have a point human."
     menu:
         "Lean in for kiss.":
