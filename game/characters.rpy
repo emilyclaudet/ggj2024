@@ -21,3 +21,4 @@ image oswald = "sopranoconcept"
 image warden = "wardenconcept"
 
 #Femme disney villain
+image queen = "queen"
