@@ -6,13 +6,12 @@ label chapter1:
     m "Don't they look nice? Why don't you go and talk to them?"
     hide warden with dissolve
     menu: 
-        "sit next to gangster dude":
+        "Sit next to gangster dude":
             jump chapter1_oswald
-        "sit next to spider lady":
+        "Sit next to spider lady":
             jump chapter1_queen
         "Sit next to the strangely dressed man":
             jump chapter1_kagami
-
 
 label chapter1_kagami:
     show kagami with dissolve
@@ -83,7 +82,87 @@ label kagami_optionB:
     "[playername] waves at Kagami as he is mid monologue and darts away."
     jump chapter1next
 
+label chapter1_oswald:
+    "You approach the grim bulky figure sitting at the far table."
+    show oswald with dissolve
+    "He doesn’t appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
+    "You’re about to sit down but pause when he glares at you."
+    o "You want something boy?"
+    menu:
+        "Can I try your pipe?":
+            o "shove it up yer ass."
+            "The fact that he doesn’t offer you the pipe leads you to believe he isn't offering to insert the pipe into your rear."
+        "Can I sit next to you?":
+            o "Guess kid."
+        "Can I eat that? It looks like you haven’t touched it…":
+            o "Keep talking like that boy they only think y’ll be eatin is the heel of my Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots."
+            "You look down at his feet but you can’t really tell what he’s wearing, they’re just black blobs"
+    "You stay silent."
+    o "That’s what I thought punk."
+    o "Scram if ya know what’s good for ya."
+    menu:
+        "Scram":
+            jump chapter1_oswald_optionA
+        "Take a bite of his food.":
+            jump chapter1_oswald_optionB
+        "Lean in for a kiss":
+            jump chapter1_oswald_optionC
+        "Sit down next to him":
+            jump chapter1_oswald_optionD
+
+
+label chapter1_oswald_optionA:
+    "You scram."
+    "..."
+    "Lame."
+    jump chapter1next
+
+label chapter1_oswald_optionB:
+    o "AW! What the devil! You tryna start something kid!"
+    "He puts his paws up like John L. Sullivan and starts rhythmically circling them while slowly bobbing his whole body up and down."
+    show warden at left with dissolve
+    m "Say fellas, do we have a problem here?"
+    "Oswald jumps as Willie clasps his shoulder from behind."
+    "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
+    o "N-non-nothin boss I was just-"
+    m "hoHO! Of course not! You wouldn’t want to get into any more trouble with me."
+    m "Would you Oz?"
+    o "N-no Mister Steamboat Warden Willie- sir."
+    "Willie leaves"
+    o "*whispers* You lucky the rat is watching."
+    "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
+    "He inhales too much and starts gagging."
+    "You might want to consider this one a lost cause."
+    jump chapter1next
+
+label chapter1_oswald_optionC:
+    "As you come within inches of his face he blushes for a moment before lurching back"
+    o "Aw! What the devil! You tryna start something kid!"
+    "He puts his paws up like a boxer from the 20s and starts rhythmically circling them while slowly bobbing his whole body up and down."
+    show warden at left with dissolve
+    m "Say fellas, do we have a problem here?"
+    "Oswald jumps as Willie clasps his shoulder from behind."
+    "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
+    o "N-non-nothin boss I was just-"
+    m "hoHO! Of course not! You wouldn’t want to get into any more trouble with me."
+    m "Would you Oz?"
+    o "N-no Mister Steamboat Warden Willie- sir."
+    "Willie pats him on the head and leaves"
+    o "*whispers* You lucky the rat is watching."
+    "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
+    "He inhales too much and starts gagging."
+    "You might want to consider this one a lost cause."
+    jump chapter1next
+
+label chapter1_oswald_optionD:
+    "He glares at you. Again. It looks like he’s trying to be more intimidating than before… but it sort of just looks like he’s constipated."
+    "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
+    "He inhales too much and starts gagging."
+    "You might want to consider this one a lost cause."
+    jump chapter1next
+
 label chapter1next:
+    scene prison with dissolve
     show warden with dissolve
     m "You aren't getting too friendly with the other's, right? Don't want to have any escapees on my watch! Ha. Ha."
     m "*Neutral looking to the side* I'm joking. Anyways! Back to your regularly scheduled programming!"

@@ -15,7 +15,7 @@ image kagami stern = "anime_villain_concept2"
 image kagami back = "anime_villain_conceptback"
 
 #Soprano
-image soprano = "sopranoconcept"
+image oswald = "sopranoconcept"
 
 #Steamboat
 image warden = "wardenconcept"
