@@ -85,18 +85,18 @@ label kagami_optionB:
 label chapter1_oswald:
     "You approach the grim bulky figure sitting at the far table."
     show oswald with dissolve
-    "He doesn’t appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
+    "He doesn't appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
     "You’re about to sit down but pause when he glares at you."
     o "You want something boy?"
     menu:
         "Can I try your pipe?":
             o "shove it up yer ass."
-            "The fact that he doesn’t offer you the pipe leads you to believe he isn't offering to insert the pipe into your rear."
+            "The fact that he doesn't offer you the pipe leads you to believe he isn't offering to insert the pipe into your rear."
         "Can I sit next to you?":
             o "Guess kid."
-        "Can I eat that? It looks like you haven’t touched it…":
-            o "Keep talking like that boy they only think y’ll be eatin is the heel of my Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots."
-            "You look down at his feet but you can’t really tell what he’s wearing, they’re just black blobs"
+        "Can I eat that? It looks like you haven't touched it…":
+            o "Keep talking like that boy they only think y'll be eatin is the heel of my Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots."
+            "You look down at his feet but you can't really tell what he's wearing, they're just black blobs"
     "You stay silent."
     o "That’s what I thought punk."
     o "Scram if ya know what’s good for ya."
