@@ -29,10 +29,11 @@ label chapter2:
     m "Haha I would advise you to stay focused on taking out the trash!"
     #show queen furious
     q "I would love to watch my sweet minions tear that rodent apart."
+    hide warden with dissolve
     menu:
         "Pick up trash for her while tripping cutely and incompetently.":
             q "hmmm I am worthy of having minions, and you clearly need an overlord or someone will tear your poor soul apart. Go on, clear the trash so we can get through this quickly!"
-        "Pick up trash for her while flexing your muscles and winking cutely."
+        "Pick up trash for her while flexing your muscles and winking cutely.":
             q "Your pathetic display of strength does not fool me."
             # show queen annoyed 
             q "But you clearly need an overlord or someone will tear your poor soul apart. Go on, clear the trash so we can get through this quickly!"
@@ -53,6 +54,7 @@ label chapter2:
             "Arachnificent raises her eyebrows, looking at you with surprise."
             #show queen smile
             q "I didn't know little human worms could be so bold and expressive."
+    "You finished clearing up the trash with the queen, and enjoyed it more than you thought you would."
     jump chapter2_mopping
 
 label chapter2_mopping:
