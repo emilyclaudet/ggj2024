@@ -4,11 +4,19 @@
 # name of the character.
 
 define e = Character("Eileen")
-define m = Character("Mickey Mouse", color="#dd1c1c")
+define m = Character("Steamboat Warden", color="#dd1c1c")
+define k = Character("Kagami", color="#eeb336")
 
 # The game starts here.
 
 label start:
+    $ playername = renpy.input("What is your name, convict?", default = "Convict")
+    $ playername = playername.strip()
+    if playername == "":
+        $ playername = "Convict"
+    jump chapter_1
+
+label chapter_1:
     scene black
     "Mickey is bringing you to your cell after you have been 'sentenced.'"
     scene prison with dissolve
