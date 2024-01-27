@@ -18,7 +18,18 @@ image kagami back = "anime_villain_conceptback"
 image oswald = "sopranoconcept"
 
 #Steamboat
-image warden = "wardenconcept"
+image warden = "Neutral Steamboat_Closed Mouth_Eyes Forward"
+image warden neutralleft  = "Neutral Steamboat_Closed Mouth_Eyes Left"
+image warden neutralright  = "Neutral Steamboat_Closed Mouth_Eyes Right"
+image warden neutraltalk = "Neutral Steamboat_Open Mouth_Eyes Forward"
+image warden neutraltalkleft "Neutral Steamboat_Open Mouth_Eyes Left"
+image warden neutraltalkright "Neutral Steamboat_Open Mouth_Eyes Right"
+image warden happy = "Happy Steamboat_Closed Mouth_Eyes Forward"
+image warden happyleft = "Happy Steamboat_Closed Mouth_Eyes Left"
+image warden happyright = "Happy Steamboat_Closed Mouth_Eyes Right"
+image warden happytalkright = "Happy Steamboat_Open Mouth_Eyes Forward"
+image warden happytalkright = "Happy Steamboat_Open Mouth_Eyes Left"
+image warden happytalkright = "Happy Steamboat_Open Mouth_Eyes Right"
 
 #Femme disney villain
 image queen = "queenspider"
