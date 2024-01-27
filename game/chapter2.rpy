@@ -24,7 +24,7 @@ label chapter2:
             q "I miss those little darlings."
         "I love all your many legs, you are truly the fairest in the lands ;3":
             #scowl
-            "No need to point out something so obvious."
+            q "No need to point out something so obvious."
     show warden at left with dissolve
     m "Haha I would advise you to stay focused on taking out the trash!"
     #show queen furious

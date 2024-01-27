@@ -1,5 +1,35 @@
+label ending_choice:
+    scene black with dissolve
+    show warden with dissolve
+    m "It’s the day you’ve been waiting for! The day where you get to pick… who you get to work out with! This decision could impact your entire future!"
+    #The scene fades to the gym, Mickey and all three villains are there.
+    m "Well, well, well. Look who we have here."
+    #[Looks in the direction the villains are then back at the player] 
+    show warden at left with moveinleft
+    m "So who will you choose?"
+    show queen at right with dissolve
+    m "The beautiful and- frankly terrifying- Queen Arachnificent!"
+    hide queen with dissolve
+    show oswald at right with dissolve
+    m "The not-so-intimidating Osbald?"
+    hide oswald with dissolve
+    show kagami at right with dissolve
+    m "Or, how about the mysterious and edgy Kagami?"
+    hide kagami with dissolve
+    menu:
+        "My Queen, of course!":
+            jump ending_queen
+        "I’d like to go with the hunk!":
+            jump ending_oswald
+        "Give me that bracelet baddie!":
+            jump ending_kagami
+        "Why can’t I just choose all three?":
+            jump ending_allthree
+        "... My heart belongs with you, Warden.":
+            jump ending_warden
 
 label ending_kagami:
+    hide warden with dissolve
     show kagami with dissolve
     k "If it isn’t my loyal lackey, why are you standing cooly against a wall like a mysterious anime protagonist?"
     "You realize that Mickey Mouse is a formidable foe stopping you from escaping the hellish dreamscape."
@@ -93,11 +123,43 @@ label ending_kagami:
     p "Kagami…"
     k "Yeah?"
     p "Let’s be cringe together."
-
     # play CG scene
     k "Yeah!"
 
+label ending_warden:
+    show warden at center with dissolve
+    m "..."
+    m "..."
+    #neutral looking at player
+    m "... You want to choose me?"
+    menu:
+        "Of course! You’re the best option I have!":
+            show warden bashful with dissolve
+            m "Really?"
+        "Why wouldn’t I?":
+            m "..."
+    m "Well, if you really want to work out with me- I’d be happy to lend you a hand..."
+    #Time skip. 
+    jump ending_warden2
 
+label ending_warden2:
+    scene black with dissolve
+    "It is 5 years later, the background is a normal park. Steamboat Warden pops up with a hint of color in his design and in normal clothes."
+    show warden with dissolve
+    m "...Ha ha. I’m really glad I met you [playername]. You know, ever since that day, I think what would have happened if you didn’t take a chance on me."
+    m "Your kindness has helped me to see that my actions are wrong. I’m really glad you and I are friends."
+    m "..."
+    m "...Hey [playername]? Do you... do you think we could ever be friends? Like real and genuinely close friends?"
+    menu:
+        "I would love that.":
+            #smiles
+            m "Me too."
+        "Maybe one day… I still think we both have growing to do.":
+            #smiles
+            m "I understand. I hope we can keep meeting like this? Until next year?"
+        "I’m sorry, but I don’t think that’s possible.":
+            #smiles and closes eyes
+            m "That’s fair. Hey, take care will yah?"
 
 label end:
     return
