@@ -30,6 +30,15 @@ image warden happyright = "Happy Steamboat_Closed Mouth_Eyes Right"
 image warden happytalkright = "Happy Steamboat_Open Mouth_Eyes Forward"
 image warden happytalkright = "Happy Steamboat_Open Mouth_Eyes Left"
 image warden happytalkright = "Happy Steamboat_Open Mouth_Eyes Right"
+image warden angry = "Angry Steamboat_Closed Mouth_Eyes Forward"
+image warden angryleft = "Angry Steamboat_Closed Mouth_Eyes Left"
+image warden angryright = "Angry Steamboat_Closed Mouth_Eyes Right"
+image warden angrytalk = "Angry Steamboat_Open Mouth_Eyes Forward"
+image warden angrytalkleft = "Angry Steamboat_Open Mouth_Eyes Left"
+image warden angrytalkright = "Angry Steamboat_Open Mouth_Eyes Right"
+image warden sad = "Sad Steamboat_Closed Mouth"
+image warden sadtalk = "Sad Steamboat_Open Mouth"
+
 
 #Femme disney villain
 image queen = "queenspider"
