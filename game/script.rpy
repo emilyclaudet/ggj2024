@@ -1,12 +1,4 @@
 ﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-define m = Character("Steamboat Warden", color="#dd1c1c")
-define k = Character("Kagami", color="#eeb336")
-
 # The game starts here.
 
 label start:
@@ -18,7 +10,7 @@ label start:
 
 label chapter_1:
     scene black
-    "Mickey is bringing you to your cell after you have been 'sentenced.'"
+    "The warden is bringing you to your cell after you have been 'sentenced.'"
     scene prison with dissolve
     show mickey with dissolve
     m "Ha ha! Welcome to the Interdimensional Prison for Villains! Within these walls are..."
@@ -26,7 +18,7 @@ label chapter_1:
     show shadow with dissolve
     m "the most dastardly!"
     m "the most deceiving!"
-    m "the most conniving"
+    m "the most conniving!"
     m "convicts you will ever lay your eyes on...!"
     hide shadow with dissolve
     show mickey with dissolve
@@ -57,8 +49,9 @@ label chapter1_canteen:
     m "Hey there! You look lost! We have loads of new… Erm- friends you can make! Just look over there!"
     m "Don’t they look nice? Why don’t you go and talk to them?"
     hide mickey with dissolve
-    show shadow with dissolve
-    "First villain canteen intro dialogue."
+    "First villain canteen intro dialogue..."
+    show kagami with dissolve
+    k "Oho… You dare to approach me? One more step and it could cost you your life."
     jump end
 
 label end:
