@@ -8,6 +8,7 @@ define o = Character("Osbald", color="#037cb5")
 define q = Character("Queen Arachnificent", color="#af56db")
 define p = Character("[playername]", color="#20e04d")
 define u = Character("???", color="#FFFFFF")
+define oz = Character("Oz", color="#037cb5")
 
 #Kagami
 image kagami = "anime_villain_concept"
