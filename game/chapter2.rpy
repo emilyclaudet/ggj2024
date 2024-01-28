@@ -12,47 +12,51 @@ label chapter2:
     q "Oh! It's you little maggot."
     menu:
         "Ask if she comes around here often":
-            #scowl expression
+            show queen annoyed with dissolve
             q "I am Mother Arachnificent, the queen of all evil. Of course I'm in the place for the most dangerous of villains."
         "Tell her she is super hot":
-            #scowl expression
+            show queen annoyed with dissolve
             q "A new maggot like you has no place talking to Mother Arachnificent in such a way."
     menu:
         "Sorry I meant no disrespect to your evil highness! So you're a mother?":
             q "I am mother to over 5000 little spider children. They will eat anyone, they have a lovely appetite."
-            #sly expression
+            show queen with dissolve
             q "I miss those little darlings."
         "I love all your many legs, you are truly the fairest in the lands ;3":
-            #scowl
+            show queen annoyed with dissolve
             q "No need to point out something so obvious."
     show warden at left with dissolve
     m "Haha I would advise you to stay focused on taking out the trash!"
-    #show queen furious
-    q "I would love to watch my sweet minions tear that rodent apart."
     hide warden with dissolve
+    show queen annoyed with dissolve
+    q "I would love to watch my sweet minions tear that rodent apart."
     menu:
         "Pick up trash for her while tripping cutely and incompetently.":
+            show queen happy with dissolve
             q "hmmm I am worthy of having minions, and you clearly need an overlord or someone will tear your poor soul apart. Go on, clear the trash so we can get through this quickly!"
         "Pick up trash for her while flexing your muscles and winking cutely.":
             q "Your pathetic display of strength does not fool me."
-            # show queen annoyed 
+            show queen annoyed with dissolve
             q "But you clearly need an overlord or someone will tear your poor soul apart. Go on, clear the trash so we can get through this quickly!"
     menu:
         "Continue picking up the trash quickly while tripping cutely and incompletely":
-            #show queen smile
+            show queen happy with dissolve
             q "Ahahahah you are truly a pathetic soul in need of an overlord."
         "Continue picking up the trash quickly while flexing your muscles":
+            show queen annoyed with dissolve
             q "Quit trying to show off and get the job done!"
         "Stop picking up the trash":
+            show queen annoyed with dissolve
             q "You fool! Who told you you could stop?!"
     "You continue picking up the trash, most of it is cleared. Arachnificent smiles, pleased. She starts decorating her crown with extra silken webs. How do you keep her attention?"
 
     menu:
         "Juggle the trash in the air":
+            show queen happy with dissolve
             q "Ahahahah you are such a meek fool!"
         "Pick your nose and wipe it on the trash while looking at her suggestively":
             "Arachnificent raises her eyebrows, looking at you with surprise."
-            #show queen smile
+            show queen happy with dissolve
             q "I didn't know little human worms could be so bold and expressive."
     "You finished clearing up the trash with the queen, and enjoyed it more than you thought you would."
     jump chapter2_mopping
@@ -62,15 +66,16 @@ label chapter2_mopping:
     show warden with dissolve
     m "Now that the trash has been cleared it's time to mop some floors! Have a swell ol time ha ha!"
     hide warden with dissolve
-    show queen with dissolve
-    #show queen annoyed
+    show queen annoyed with dissolve
     q "Finally this hell will be over soon! I cannot have my fair webs in a tangle from all this muck!!"
-    #show queen smile
+    show queen happy with dissolve
     q "At least I finally have a minion back to help me."
     menu:
         "Am I just a minion to you?":
+            show queen happy with dissolve
             q "My little worm maggot, what are you trying to say??"
         "I'm happy to be your minion…..but…":
+            show queen happy with dissolve            
             q "My little worm maggot, what are you trying to say??"
     menu:
         "Confess":
@@ -82,6 +87,7 @@ label chapter2_mopping:
             q "Human, you have shown yourself to be quite useful. In another life I would have put you to use and taken over the world."
     menu:
         "We can still take over the world":
+            show queen happy with dissolve
             jump chapter2_ending
         "I want to spend more time with you":
             jump chapter2_ending
@@ -89,6 +95,7 @@ label chapter2_mopping:
 label chapter2_ending:
     q "?!"
     "Arachnificent plays with her webs, she looks lost in thought before she shakes her head."
+    show queen annoyed with dissolve
     q "You fool, do you really expect that fantasy to play out? Romance stories are reserved for heroes and princesses. Not villainous queens..and..whatever you are."
     menu:
         "I love you for being a villainous spider queen":
@@ -97,9 +104,11 @@ label chapter2_ending:
             q "..."
         "Why can't villains have a love story?":
             q "..."
+    show queen with dissolve
     q "I already have my little babies…will there really be room for you in all this?"
     menu:
         "I'm great with kids":
+            show queen flirt with dissolve
             q "Fuhuhuh you are trying too hard."
     p "We're in prison, we might as well enjoy our time here."
     q "You have a point human."
@@ -110,6 +119,8 @@ label chapter2_ending:
             q "?!"
         "Sit in her lap.": 
             q "?!"
+    show queen bashful with dissolve
     q "I suppose we can stay like this…a little longer."
+    show queen flirt with dissolve
     "You and the queen enjoy an amateurish and awkward kissing session in the quiet labyrinth."
     jump chapter3

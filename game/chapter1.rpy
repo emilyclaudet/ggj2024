@@ -163,35 +163,45 @@ label chapter1_oswald_optionD:
 
 label chapter1_queen:
     "You walk up to the beautiful spidery woman, she is stabbing her food with her long legs and eating off of them."
+    show queen with dissolve
     menu queen_questions1:
+    show queen with dissolve
         "What are you in here for?":
+            show queen happy with dissolve
             q "I tried making everyone beautiful with 8 arms, like me."
             q "The whole world was nearly full of my little slave children. If not for that tiny prince's luck, they all would've been mine!"
             $ queenchoice1 = True
             jump queen_questions1
         "What's your name?":
+            show queen annoyed with dissolve
             q "Hmm so you're a new little maggot in this prison, bold enough to ask my name?"
             q "I am Mother Arachnificent, you should know me."
             $ queenchoice2 = True
             jump queen_questions1
         "You're a mother?" if queenchoice1 and queenchoice2 == True:
+            show queen happy with dissolve
             q "I have 5000 adorable little spider children. They are always hungry."
             jump queen_questions1
         "Tiny prince?" if queenchoice1 and queenchoice2 == True:
+            show queen happy with dissolve
             q "You're a nosy lost soul aren't you?"
             jump queen_questions1
         "Stop asking questions":
             jump chapter1_queen_questions2
 
 label chapter1_queen_questions2:
+    show queen with dissolve
     q "Little maggot, what villainous thing could you possibly be in here for?"
     menu queen_questions2:
         "I'm innocent!":
+            show queen happy with dissolve
             q "Ahahahah you unfortunate fool. You're fresh bait in this world! evil laugh"
         "I'm actually mass murderer":
-            q "And a terrible liar. annoyed"
+            show queen annoyed with dissolve
+            q "And a terrible liar."
         "I was too hot and seggsy":
-            q "Your form is hideous, that cannot possibly be true. *annoyed*"
+            show queen annoyed with dissolve
+            q "Your form is hideous, that cannot possibly be true."
     q "Well, goodbye little maggot, I cannot wait to see how you get torn apart in here."
     jump chapter1end
 
