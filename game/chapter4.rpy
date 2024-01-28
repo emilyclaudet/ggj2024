@@ -1,19 +1,23 @@
 label chapter4:
-    scene black with dissolve
-    show warden with dissolve
+    scene prison with dissolve
+    show warden happytalk with dissolve
     m "Good morning!"
-    #[Fades to Neutral looking away before flipping back to looking at the player] 
+    show warden neutraltalk with dissolve
     m "Be honest with me [playername], how would you rate my performance out of five stars?"
+    show warden neutral with dissolve
     menu:
         "What? Literally zero stars! You’re the worst.":
-            #neutral
+            show warden neutral with dissolve
             m "I see."
         "Uh… three?":
+            show warden happytalkleft with dissolve
             m "An average score coming from an average villain."
         "Five.":
-            #Bashful, fades back to neutral looking away, fades to neutral looking at player] 
+            show warden bashful with dissolve
             m "Didn’t I tell you flattery will get you nowhere? ... Was that in this reality?"
+    show warden excited with dissolve
     m "Well - Enough dilly dallying and get to where you’re going!"
+    jump chapter4_bracelet1
 
 #friendship bracelets scene
 label chapter4_bracelet1:

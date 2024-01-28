@@ -18,20 +18,21 @@ label intro:
     show warden excited with dissolve
     m "convicts you will ever lay your eyes on...!"
     hide kagami with dissolve
-    show warden happy at center with moveinright
+    show warden happytalk at center with moveinright
     m "And what does the criminal, [playername], have to say for themselves?"
     menu:
         "I didn’t do anything wrong!":
-            show warden angry with dissolve
+            show warden angrytalk with dissolve
             m "You know what you did! Don’t act like you don’t belong."
         "Woah- This place is so weird!":
-            show warden happy with dissolve
+            show warden happytalk with dissolve
             m "Wait until you see the courtyard!"
         "Has anyone ever told you that you have an amazing fashion sense?":
             show warden angry with dissolve
             m "*Angry* Flattery will get you nowhere with me!"
-    show warden happy with dissolve
+    show warden happytalk with dissolve
     m "As I was saying- once you get to your cell, you will be given your schedule."
+    show warden angrytalk with dissolve
     m "Make sure to keep your head down! The other inmates aren’t as friendly as I am!"
     jump intro_cell
 

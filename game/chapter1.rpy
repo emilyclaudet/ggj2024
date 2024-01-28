@@ -14,14 +14,15 @@ label chapter1:
     show kagami at left with dissolve 
     m "Don't they look nice? Why don't you go and talk to them?"
     menu: 
-        "Sit next to gangster dude":
+        "Sit next to the chic pretty man":
+            jump chapter1_kagami
+        "Sit next to the gangster":
             jump chapter1_oswald
         "Sit next to spider lady":
             jump chapter1_queen
-        "Sit next to the strangely dressed man":
-            jump chapter1_kagami
 
 label chapter1_kagami:
+    scene canteen with dissolve
     show kagami with dissolve
     u "Oho… You dare to approach me? One more step and it could cost you your life."
     menu:
@@ -64,7 +65,7 @@ label kagami_optionA:
     k "But just know, that next time, I'll turn you into toad oil if you get on my bad side again."
     hide kagami with dissolve
     n "You watch Kagami leave. You felt bewildered but decided to not think about the weird guy anymore and instead focused on the weird dystopian slop on his plate…known as a bhocolate bhip bookie."
-    # add sound effect
+    play sound bell
     n "Bell rings and it's time for him to do an activity!-"
     jump chapter1end
 
@@ -95,6 +96,7 @@ label kagami_optionB:
     jump chapter1end
 
 label chapter1_oswald:
+    scene canteen with dissolve
     n "You approach the grim bulky figure sitting at the far table."
     show osbald with dissolve
     n "He doesn't appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
@@ -174,7 +176,9 @@ label chapter1_oswald_optionD:
     jump chapter1end
 
 label chapter1_queen:
-    n "You walk up to the beautiful spidery woman, she is stabbing her food with her long legs and eating off of them."
+    scene canteen with dissolve
+    n "You walk up to the beautiful spidery woman."
+    n "She is stabbing her food with her long legs and eating off of them."
     show queen with dissolve
     menu queen_questions1:
         "What are you in here for?":
@@ -218,9 +222,13 @@ label chapter1_queen_questions2:
 
 label chapter1end:
     scene prison with dissolve
-    show warden with dissolve
+    show warden happy with dissolve
     m "You aren't getting too friendly with the other's, right? Don't want to have any escapees on my watch! Ha. Ha."
-    m "*Neutral looking to the side* I'm joking. Anyways! Back to your regularly scheduled programming!"
+    show warden neutralleft with dissolve
+    m "Haha I'm joking."
+    show warden happy with dissolve
+    m "Anyways! Back to your regularly scheduled programming!"
+    play sound bell
     jump chapter2
 
 
