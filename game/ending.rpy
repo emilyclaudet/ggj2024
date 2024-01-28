@@ -123,19 +123,21 @@ label ending_kagami:
     n "Dumbfounded, you could only listen to Kagami’s ecstatic excitement as the whirling orbs created a large black hole above them."
     n "You glance up and see something strange poking out of it until–"
     n "BONK"
+    scene gym with dissolve
     n "The bracelets fall onto the ground with an array of clinks and clanks."
-    k "That was so not sugoi…"
+    show kagami annoyed with dissolve
+    k "That was so not sugoi..."
     n "He let out a groan as he rubbed his aching head."
     n "You pick up the mysterious item that nearly gave your new bestie for liferz >//o//< a mild concussion."
     p "Wait… this is…"
-    n "The Warden's key–they…somehow got Willie's key!!"
+    n "The Warden's key–they...somehow got Willie's key!!"
     n "You hold up the key and are startled to see a keyhole appear on the wall."
-    scene tintkey with dissolve
+    scene wallopenkey with dissolve
     k "That's gotta be the way to get out…"
     n "Kagami let out a light-hearted laugh."
-    k "I can't believe it…"
-    p "It's all thanks to believing in the heart of the cards–erm, uh..I mean bracelet."
-    scene wallopenkey with dissolve
+    k "I can't believe it..."
+    p "It's all thanks to believing in the heart of the cards–erm, uh...I mean bracelet."
+    scene tintkey with dissolve
     k "You place the key in the keyhole, turning back to face Kagami as you give him a reassuring smile."    
     p "We have peak anime content to watch through."
     scene wallopen with dissolve
@@ -151,7 +153,7 @@ label ending_kagami:
 
 label ending_osbald:
     scene gym with dissolve
-    show osbald at left with dissolve
+    show osbald with dissolve
     o "Bahaha! Of course, guess I can trust ya kid."
     show warden at right with dissolve
     show osbald evilgrin with dissolve
