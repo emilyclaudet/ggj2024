@@ -238,7 +238,18 @@ label ending_queen:
 
 label ending_allthree:
     scene gym with dissolve
-    "Placeholder all 3 ending."
+    show queen bashful with dissolve
+    q "You want to pick all three of us?"
+    show osbald surprisedred with dissolve
+    o "Ya really wanna tango with all of us?"
+    show kagami happy at left with dissolve
+    k "GASP! My own harem…"
+    n "You smile and nod before clasping hands with the group."
+    p "Let’s do this-"
+    p "Together!"
+    scene black with dissolve
+    n "You and your group of hot villain baddies manage to escape from the Steamboat Warden’s tyrannical rule." 
+    n "You and your loves now rest in a cabin by the sea, sharing each other’s company happily."
     jump end 
 
 
