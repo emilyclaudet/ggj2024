@@ -41,12 +41,12 @@ label chapter3_laundry2:
             jump chapter3_laundry3
 
 label chapter3_laundry3:
-    show osbald surprisedred with dissolve
+    show osbaldmuscle badsurprisedred with dissolve
     n "Oz looks up and his eyes widen in terror, his face turns red as a tomato."
     oz "HEY!!!"
     n "Oz snatches the costume out of your hands and frantically looks for a place to hide it."
     n "He clumsy waddles to the far end of the room and stuffs the suit behind the furthest laundry machine and turns back to you."
-    show osbald badsurprisedred with dissolve
+    show osbaldmuscle upset with dissolve
     oz "YOU DIDN'T SEE NOTHIN KID!"
 
     menu:
@@ -56,61 +56,66 @@ label chapter3_laundry3:
             jump chapter3_laundry4
 
 label chapter3_laundry4:
-    show osbald badsurprised with dissolve
+    show osbaldmuscle badsurprised with dissolve
     oz "Why you little..."
+    show osbaldmuscle upset with dissolve
     n "Oz waddles back up to you."
     oz "C'mon! whadda I gotta do ta' get you to not blab?"
     menu chapter3_laundry4_menu:
         "Why do you wear a muscle tee.":
-            show osbald with dissolve
             oz "Tsk Why da ya think kid?"
-            show osbald distantsad with dissolve
+            show osbaldmuscle badsurprised with dissolve
             oz "Have you seen the folks here? Freaks! Bafoons!"
+            show osbaldmuscle with dissolve
             oz "That one kid wit da spiky hair, he's got some screws loose for sure! I can't even understand what he's sayin half the time."
-            show osbald badsurprised with dissolve
+            show osbaldmuscle upset with dissolve
             oz "And dat one dame wit all da legs! Honestly, what she need them all for, and the way her 'kids' look at me."
             n "Oz shudders"
+            show osbaldmuscle with dissolve
             oz "Never heard of a spida eatin a rabbit but naaah. I don't like it one bit."
+            show osbaldmuscle evilgrin with dissolve
             oz "Ya gotta look tough ta live around here kid… That's why you can't tell anyone."
             jump chapter3_laundry4_menu
         "Do you and the warden know eachother?":
-            show osbald distantsad with dissolve
+            show osbaldmuscle surprised with dissolve
             oz "Ya don't know?"
-            show osbald badsurprised with dissolve
             oz "What baloney are they teachin you kids nowadays?"    
 
     #CG HERE
-    show osbald distantsad with dissolve
+    show osbaldmuscle with dissolve
     oz "All ya need to know is that once I had everything."
-    show osbald upset with dissolve
+    show osbaldmuscle upset with dissolve
     oz "And that rat took it all from me."
-    show osbald badsurprised with dissolve
+    show osbaldmuscle badsurprised with dissolve
     oz "I WAS FIRST! YA HEAR?"
     n "You nodd along..."
-    show osbald badsurprisedred with dissolve
     oz "DAT BASTARD. I HAD DA WORLD IN MY PAWS AND HE TOOK IT ALL AWAY!"
     oz "NOW LOOK AT ME!"
 
     #CG STOPS
     oz "I’M NOTHIN! I’m in a costume, a disguise!"
+    show osbaldmuscle upset with dissolve
     oz "I’m hidin!"
-    show osbald with dissolve
+    show osbaldmuscle distantsad with dissolve
     oz "But-"
     oz "But I guess it’s not like I need to… Even a nobody like yous knows who I am."
-    show osbald distantsad with dissolve
     oz "Who I was…"
+    hide osbaldmuscle distantsad with dissolve
     n "Oz looks down at his Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots, hands crossed infront of his foam chest."
     n "He suddenly stands much smaller, deflated."
     menu:
         "You reach out to hug him.":
+            show osbaldmuscle with dissolve
             "Oz pulls away before you can touch him."
             jump chapter3_laundry5
         "...":
+            show osbaldmuscle with dissolve
             jump chapter3_laundry5
 
 label chapter3_laundry5:
     oz "I said too much…"
     n "Oz turns back to sort laundry"
+    show osbaldmuscle upset with dissolve
     oz "Hope you’re happy kid, cuz I’m not blabbin anymore."
     jump chapter3_books
 
