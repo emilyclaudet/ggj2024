@@ -85,6 +85,9 @@ image warden sad = "sad_warden_closedmouth"
 image warden sadtalk = "sad_warden_openmouth"
 image warden bashful = "bashful_warden"
 image warden excited = "excited_warden"
+image warden reformedbashful = "reformed_bashful"
+image warden reformedhappy = "reformed_happy"
+image warden reformedhappyblink = "reformed_happyblink"
 
 #Femme disney villain
 image queen neutral = "queen_neutral"

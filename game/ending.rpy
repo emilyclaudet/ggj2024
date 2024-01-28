@@ -1,23 +1,30 @@
 label ending_choice:
     scene prison with dissolve
-    show warden with dissolve
-    m "It’s the day you’ve been waiting for! The day where you get to pick… who you get to work out with! This decision could impact your entire future!"
-    m "C'mon everyone, let's get going to the gym area..."
-    scene gym with dissolve
+    show warden happy with dissolve
     pause 1.0
+    show warden happytalk with dissolve
+    m "It’s the day you’ve been waiting for!"
+    m "The day where you get to pick..."
+    m "who you get to work out with! This decision could impact your entire future!"
+    show warden with dissolve
+    n "You all head to the gym..."
+    scene gym with dissolve
+    show warden happytalkright with dissolve
     m "Well, well, well. Look who we have here."
-    #[Looks in the direction the villains are then back at the player] 
-    show warden at left with moveinleft
+    show warden happytalk at left with moveinleft
     m "So who will you choose?"
     show queen at right with dissolve
     m "The beautiful and- frankly terrifying- Queen Arachnificent!"
     hide queen with dissolve
+    show warden neutraltalk with dissolve
     show osbald at right with dissolve
     m "The not-so-intimidating Osbald?"
     hide osbald with dissolve
+    show warden happytalk with dissolve
     show kagami at right with dissolve
     m "Or, how about the mysterious and edgy Kagami?"
     hide kagami with dissolve
+    show warden with dissolve
     menu:
         "My Queen, of course!":
             jump ending_queen
@@ -56,7 +63,7 @@ label ending_kagami:
     k "[playername]..."
     p "The only crime you did was having poor fashion taste, isn’t it?"
     k "That’s not true! My fashion is iconic… you just don’t have a 5-star, SSS fashion sense like I do!"
-    # kagami frustrated expression
+    show kagami annoyed with dissolve
     n "Kagami lets out a frustrated sigh, running a hand through his hair."
     k "But…I never murdered anyone…"
     p "Yeah I could tell by your honey fists hitting the wall. If anything, it looked like you were giving it a well deserved massage."
@@ -138,11 +145,11 @@ label ending_osbald:
     o "HEY RAT!!!"
     show osbald evilgrin at center with moveinright
     n "Osbald rips of his hat and overcoat in one swift motion."
-    show osbaldmuscle evilgrin with dissolve
+    show osbald muscleevilgrin with dissolve
     o "Keys Kid!" with vpunch
     n "In the wardens shock you’re able to swipe the keys from his belt and throw them to Osbald."
     n "No turning back now."
-    show osbaldmuscle with dissolve
+    show osbald muscle with dissolve
     o "Tell the whole world: OSBALDS BACK!!!"
     jump end 
 
@@ -216,10 +223,10 @@ label ending_allthree:
 
 
 label ending_warden:
-    show warden at center with dissolve
+    show warden happy at center with dissolve
     m "..."
     m "..."
-    #neutral looking at player
+    show warden neutraltalk with dissolve
     m "... You want to choose me?"
     menu:
         "Of course! You’re the best option I have!":
@@ -227,27 +234,29 @@ label ending_warden:
             m "Really?"
         "Why wouldn’t I?":
             m "..."
+    show warden happytalk with dissolve
     m "Well, if you really want to work out with me- I’d be happy to lend you a hand..."
-    #Time skip. 
     jump ending_warden2
 
 label ending_warden2:
-    scene black with dissolve
-    "It is 5 years later, the background is a normal park. Steamboat Warden pops up with a hint of color in his design and in normal clothes."
-    show warden with dissolve
+    scene park with dissolve
+    "5 years later..."
+    show warden reformedhappy with dissolve
     m "...Ha ha. I’m really glad I met you [playername]. You know, ever since that day, I think what would have happened if you didn’t take a chance on me."
-    m "Your kindness has helped me to see that my actions are wrong. I’m really glad you and I are friends."
+    m "Your kindness has helped me to see that my actions are wrong. I’m really glad you and I met."
+    show warden reformedhappyblink with dissolve
     m "..."
+    show warden reformedhappy with dissolve
     m "...Hey [playername]? Do you... do you think we could ever be friends? Like real and genuinely close friends?"
     menu:
         "I would love that.":
-            #smiles
+            show warden reformedbashful with dissolve 
             m "Me too."
         "Maybe one day… I still think we both have growing to do.":
-            #smiles
+            show warden happyblink with dissolve
             m "I understand. I hope we can keep meeting like this? Until next year?"
         "I’m sorry, but I don’t think that’s possible.":
-            #smiles and closes eyes
+            show warden happyblink with dissolve
             m "That’s fair. Hey, take care will yah?"
     jump end
 
