@@ -14,10 +14,18 @@ image kagami = "anime_villain_concept"
 image kagami stern = "anime_villain_concept2"
 image kagami back = "anime_villain_conceptback"
 
-#Soprano
-image osbald = "sopranoconcept"
+#Osbald
+image osbald = "oswald_n_neutral"
+image osbald badsurprisedred = "oswald_n_badsuprisedred"
+image osbald badsurprised = "oswald_n_badsuprised"
+image osbald distantsad = "oswald_n_distantsad"
+image osbald evilgrin = "oswald_n_evilgrin"
+image osbald upset = "oswald_n_upset"
+image osbald surprised = "oswald_n_suprised"
+image osbald surprisedblushing = "oswald_n_suprisedblushing"
+image osbald surprisered = "oswald_n_suprisedred"
 
-#Steamboat
+#Warden 
 image warden = "neutral_warden_closedmouth_forward"
 image warden neutralleft  = "neutral_warden_closedmouth_left"
 image warden neutralright  = "neutral_warden_closedmouth_right"
@@ -42,17 +50,18 @@ image warden bashful = "bashful_warden"
 image warden excited = "excited_warden"
 
 #Femme disney villain
-image queen neutral = "1Queen_Neutral"
-image queen blink = "1Queen_Neutral_blink"
-image queen happy2 = "2Queen_Happy"
-image queen annoyedblink "3Queen_Annoyed_blink"
-image queen annoyed2 = "3Queen_Annoyed"
-image queen sad = "4Queen_Sad"
-image queen bashfulblink = "5Queen_Bashful_blink"
-image queen bashful2 = "5Queen_Bashful"
-image queen flirtyblink = "6Queen_Flirty_blink"
-image queen flirty = "6Queen_Flirty"
+image queen neutral = "queen_neutral"
+image queen blink = "queen_neutral_blink"
+image queen happy2 = "queen_happy"
+image queen annoyedblink = "queen_annoyed_blink"
+image queen annoyed2 = "queen_annoyed"
+image queen sad = "queen_sad"
+image queen bashfulblink = "queen_bashful_blink"
+image queen bashful2 = "queen_bashful"
+image queen flirtyblink = "queen_flirty_blink"
+image queen flirty = "queen_flirty"
 
+#queen animations
 image queen:
     "queen neutral"
     3

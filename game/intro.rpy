@@ -4,14 +4,18 @@ label intro:
     scene prison with dissolve
     show warden with dissolve
     m "Ha ha! Welcome to the Interdimensional Prison for Villains! Within these walls are..."
-    hide warden with dissolve
-    show shadow with dissolve
+    show warden at left with moveinleft
+    show queen with dissolve
     m "the most dastardly!"
+    hide queen with dissolve
+    show osbald with dissolve
     m "the most deceiving!"
+    hide osbald with dissolve
+    show kagami with dissolve
     m "the most conniving!"
     m "convicts you will ever lay your eyes on...!"
-    hide shadow with dissolve
-    show warden with dissolve
+    hide kagami with dissolve
+    show warden at center with moveinright
     menu:
         m "And what does the defendent, [playername], have to say for themselves?"
         "I didn’t do anything wrong!":

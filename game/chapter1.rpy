@@ -128,7 +128,7 @@ label chapter1_oswald_optionB:
     m "hoHO! Of course not! You wouldn’t want to get into any more trouble with me."
     m "Would you Oz?"
     o "N-no Mister Steamboat Warden Willie- sir."
-    "Willie leaves"
+    hide warden with dissolve
     o "*whispers* You lucky the rat is watching."
     "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
     "He inhales too much and starts gagging."
@@ -147,7 +147,7 @@ label chapter1_oswald_optionC:
     m "hoHO! Of course not! You wouldn't want to get into any more trouble with me."
     m "Would you Oz?"
     o "N-no Mister Steamboat Warden Willie- sir."
-    "Willie pats him on the head and leaves"
+    hide warden with dissolve
     o "*whispers* You lucky the rat is watching."
     "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
     "He inhales too much and starts gagging."
