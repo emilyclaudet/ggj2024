@@ -4,10 +4,10 @@ label chapter4:
     m "Good morning!"
     show warden neutraltalk with dissolve
     m "Be honest with me [playername], how would you rate my performance out of five stars?"
-    show warden neutral with dissolve
+    show warden with dissolve
     menu:
         "What? Literally zero stars! You’re the worst.":
-            show warden neutral with dissolve
+            show warden neutraltalk with dissolve
             m "I see."
         "Uh… three?":
             show warden happytalkleft with dissolve

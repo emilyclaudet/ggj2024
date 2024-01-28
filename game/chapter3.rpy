@@ -12,7 +12,7 @@ label chapter3_laundry:
     scene laundryroom with dissolve
     n "You and Oz have been sorting piles of laundry in silence for the past 20 minutes. All the clothing is just exact copies of what you saw your fellow inmates wearing, so it's pretty easy to sort."
     n "Even easier than that because Oz wouldn't let you touch any of the clothes before he sorted all of his out."
-    show osbaldmuscle with dissolve
+    show osbald muscle with dissolve
     menu:
         "So hows the…":
             oz "..."
