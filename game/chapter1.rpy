@@ -26,7 +26,7 @@ label kagami_optionA:
     "You ignore his threat and takes another step forward. Silence fills the space between them. Nothing seemed to have happened."
     "The strange man looks at you perplexed before pointing at you angrily."
     u "Uh - I was merely testing you, mortal. >:c! You are not worthy of my hyper blast fist of the south star."
-    "[playername] nods, stifling a laugh, before they sit next to Kagami."
+    "[playername] nods, stifling a laugh, before they sit next to the strange man."
     menu:
         "Ask him his name.":
             u "..."

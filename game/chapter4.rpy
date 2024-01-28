@@ -54,15 +54,9 @@ label chapter4_bracelet3:
     p "Eh–wait you already made a bracelet–"
     k "These strings hold more power than just these measly beads–I mean, decorative orbs." 
     k "AHEM, these strings are the webs of friendship; if a bracelet dares to break, it would cause the world to combust in seconds."
-
     #his bracelet breaks
-
     k "Uh...in other universes, I mean.”  “YES–The world of Eorzea is done for, shattered to PIECES. You could even say, that was truly their…Final Fantasy."
     #a cooking timer sound effect and then the image of the friendship bracelets are shown
     "(You make a destructive and world-ending bracelet!)"
-
-    jump chapter_4end
-
-label chapter_4end:
-    jump end
+    jump ending_choice
 

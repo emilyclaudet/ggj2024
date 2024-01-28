@@ -2,8 +2,8 @@
 # The game starts here.
 
 label start:
-    $ playername = renpy.input("What is your name, convict?", default = "Convict")
+    $ playername = renpy.input("What is your name?", default = "Convict")
     $ playername = playername.strip()
     if playername == "":
         $ playername = "Convict"
-    jump intro
+    jump debug
