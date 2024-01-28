@@ -4,7 +4,7 @@
 define m = Character("Steamboat Warden", color="#c7cfcb")
 define k = Character("Kagami", color="#C49C0F")
 define c = Character("Cringe Lord", color="#C49C0F")
-define o = Character("Oswald", color="#037cb5")
+define o = Character("Osbald", color="#037cb5")
 define q = Character("Queen Arachnificent", color="#af56db")
 define p = Character("[playername]", color="#20e04d")
 define u = Character("???", color="#FFFFFF")

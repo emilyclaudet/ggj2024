@@ -160,6 +160,7 @@ label ending_warden2:
         "I’m sorry, but I don’t think that’s possible.":
             #smiles and closes eyes
             m "That’s fair. Hey, take care will yah?"
+    jump end
 
 label end:
     return

@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/chapter2.rpy", line 35: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Pick up trash for her while flexing your muscles and winking cutely."
-                                                                          ^
+File "game/characters.rpy", line 25: expected '=' not found.
+    image warden neutraltalkleft "Neutral Steamboat_Open Mouth_Eyes Left"
+                                 ^
+
+File "game/characters.rpy", line 26: expected '=' not found.
+    image warden neutraltalkright "Neutral Steamboat_Open Mouth_Eyes Right"
+                                  ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sat Jan 27 15:07:36 2024
+Sat Jan 27 17:21:41 2024
