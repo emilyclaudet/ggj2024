@@ -26,7 +26,7 @@ label kagami_optionA:
     "You ignore his threat and takes another step forward. Silence fills the space between them. Nothing seemed to have happened."
     "The strange man looks at you perplexed before pointing at you angrily."
     u "Uh - I was merely testing you, mortal. >:c! You are not worthy of my hyper blast fist of the south star."
-    "[playername] nods, stifling a laugh, before they sit next to the strange man."
+    "You nod, stifling a laugh, before they sit next to the strange man."
     menu:
         "Ask him his name.":
             u "..."
@@ -46,7 +46,7 @@ label kagami_optionA:
     "Defeated, Cringelord hangs his head."
     menu:
         "Relax, I was just testing you like you did me earlier.--I'm [playername]":
-            "[playername] felt a bit bad for breaking the illusion of “coolness” for this guy. Though he was a bit cringe, he was an entertaining and oddly vibrant breath of fresh air in this otherwise dulled and surreal hellscape."
+            "You felt a bit bad for breaking the illusion of “coolness” for this guy. Though he was a bit cringe, he was an entertaining and oddly vibrant breath of fresh air in this otherwise dulled and surreal hellscape."
     "Cringelord shifts his gaze upwards..."
     c "Kagami…"
     k "It's not nice to meet you - but I suppose, having a lackey understand the beauty of my power is worthwhile."

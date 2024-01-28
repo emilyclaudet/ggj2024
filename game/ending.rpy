@@ -134,7 +134,65 @@ label ending_osbald:
 
 label ending_queen:
     scene black
-    "Placeholder Queen ending."
+    show queen with dissolve
+    "You and Queen Arachnificent work out together. You try to show off but Arachnificent seems distracted."
+    p "Is something bothering you?"
+    show queen sad with dissolve
+    q "My little worm, I’ve been planning this moment for years but..I needed someone who was willing to..."
+    menu:
+        "What is it?":
+            q "I can give you power."
+        "I’ll do anything for you":
+            q "I can give you power."
+        "Yes! Tell me Queen <333":
+            q "I can give you power."
+    q "If you join me..your life will change forever. Do you accept?"
+    p "I’ve made my choice, of course I will!"
+    show queen happy with dissolve
+    q "Then it is done."
+    p "?!"
+    "The Queen pricks you with one of her sharp spidery legs…you feel nauseous?? The world is fading."
+    q "Little worm are you alright?"
+    "You wake up..something feels different."
+    "?!"
+    "You have spider limbs now."
+    "So cool and epic???"
+    q "You are now able to understand my ancient spider tongue?"
+    menu:
+        "Understand you perfectly <33":
+            show queen happy with dissolve
+            q "You are so dependable"
+        "WOAAH what is this?!!? I’m freaking out!!":
+            show queen happy with dissolve
+            q "Calm down my darling, you will get used to it with time."
+        "This is freaking cool, I love being like you <3":
+            show queen bashful with dissolve
+            q "Finally someone understands."
+    show queen annoyed with dissolve
+    q "We can now communicate without that mousey faker dreams getting in our way."
+    q "“That warden tried to snuff my archetype out…thinking I was too old for this world..BUT I WILL REIGN SUPREME AGAIN."
+    p "We’re escaping together?"
+    q "You catch on quickly."
+    q "With both our powers combined…"
+    q "..and the few hundred eggs I’ve been incubating for years for this exact moment...."
+    q "..we will take over this prison, turn them all into slaves and RULE THE LANDS."
+    menu:
+        "..can we spare the prisoners?":
+            q "..."
+            show queen happy with dissolve
+            q "My babies eat indiscriminately..but I will try to control them to the best of my ability. Just for you my darling."
+        "..can we at least Osbald and Kagami?":
+            show queen annoyed with dissolve
+            q "..you really care about those fools?"
+            show queen happy with dissolve
+            q "Fine..my babies eat indiscriminately..but I will try to control them to the best of my ability. Just for you my darling."
+        "YEEEAHAHAHAHAHHHAHAHAHAH!!!":
+            show queen flirt with dissolve
+            q "Exquisite reaction, I knew you’d be thrilled."   
+    "You and Queen Arachnificient escape together with your legion of spider minions. It’s a bloody battle. Many get killed or turned into spiders."
+    "Is there anyone who will stop you both?"
+    "Perhaps, perhaps not."
+    "For now you live happily together, taking over the world."
     jump end 
 
 label ending_allthree:
