@@ -46,22 +46,27 @@ label ending_kagami:
         "Kagami I need your help.":
             "Kagami moves closer, eager to hear that you actually value him as an individual."
     n "You explain to him your plan of wanting to escape, but struggle in actually doing so due to the Warden’s watchful eye."
+    show kagami happy with dissolve
     k "Aha, why didn’t you just ask me earlier?! Step back, lackey. I’ll turn this wall in front of us into a portal into the mortal realm!"
     n "Kagami lets out a deep breath, his eyes darker and much more menacing than before…You begin to wonder if he, perchance, does have actual powers."
     n "He raises his arms, then in one powerful swoop–he shoves his hands at the wall."
     k "OPEN SESAME!"
     n "The force of his hands impacting the rugged stone wall left muffled echoes of his attack."
+    scene tintwall with dissolve
     n "The wall remained unphased by Kagami and you find yourself wondering why you ever bothered asking him."
     k "It was a…miss input–I just need to focus on my chakra!"
     n "You stare at Kagami as he continues hitting his hand against the wall."
     n "The only damage being done here seems to be your brain cells as you continue to steel yourself against the cringe you’re witnessing."
+    scene gym with dissolve
     p "Kagami..."
+    show kagami annoyed with dissolve
     k "Just hang on–this wall’s gonna burst aaany second now."
     p "Kagami stop lying to yourself."
     n "He halts his barrage on the wall and faces you. His expression is sullen."
     p "You’re not really a villain are you?"
     k "[playername]..."
     p "The only crime you did was having poor fashion taste, isn’t it?"
+    show kagami with dissolve
     k "That’s not true! My fashion is iconic… you just don’t have a 5-star, SSS fashion sense like I do!"
     show kagami annoyed with dissolve
     n "Kagami lets out a frustrated sigh, running a hand through his hair."
@@ -70,11 +75,13 @@ label ending_kagami:
     n "Kagami ignored your remark."
     k "The first time I came here…it was from repeated Jaywalking…"
     p "...Really?"
+    show kagami happy with dissolve
     k "The urge to be diagonal was too strong to resist…The speed…The velocity…It felt like I was Sanic the Speedster in that moment…"
     n "He let out a passionate sigh, balling his fists as he looked longingly at the sky."
     k "And now…I’m in jail for tax fraud."
     p "That one actually seems serious, color me surprised!"
     k "[playername]...The pain of not understanding taxes was too daunting for me–THEY NEVER TAUGHT IT IN SCHOOL…granted I always skipped classes–BUT STILL."
+    show kagami with dissolve
     k "I blame society for causing me to fail…"
     p "Sounds like a skill issue."
     k "And a skill issue it may be…and a failure I am…"
@@ -84,6 +91,7 @@ label ending_kagami:
     k "Me being a failure?"
     p "No, why you’re so cringe."
     n "Kagami looks at you with distraught before sadly agreeing with a pitiful nod."
+    show kagami annoyed with dissolve
     k "[playername]...I don’t want to be in this crusty dusty musty prison anymore."
     p "Neither do I..."
     k "...A new season of Jim Jim’s Mild Ventures came out before I got arrested."
@@ -108,6 +116,7 @@ label ending_kagami:
     n "Kagami pulls out the bracelets you both made together."
     k "Put your hand on these bracelets!"
     n "You hesitate, but the unwavering determination on Kagami’s face convinces you to give it a shot."
+    scene tintkeybracelet with dissolve
     n "You place your hand over the bracelets in his hand…and you begin to feel the strung up orbs whirl against your palm."
     p "EEEEEEH?!"
     k "Don’t you see [playername]? Our friendship...is giving us the power to escape this place, I can feel it!"
@@ -121,18 +130,22 @@ label ending_kagami:
     p "Wait… this is…"
     n "The Warden's key–they…somehow got Willie's key!!"
     n "You hold up the key and are startled to see a keyhole appear on the wall."
+    scene tintkey with dissolve
     k "That's gotta be the way to get out…"
     n "Kagami let out a light-hearted laugh."
     k "I can't believe it…"
     p "It's all thanks to believing in the heart of the cards–erm, uh..I mean bracelet."
+    scene wallopenkey with dissolve
     k "You place the key in the keyhole, turning back to face Kagami as you give him a reassuring smile."    
     p "We have peak anime content to watch through."
+    scene wallopen with dissolve
     n "You twist the key and the wall before you collapse. A strange, galaxy-like pathway peers through the hole, with a distant hole imaging the mortal world."
+    scene moon with dissolve
     n "At last, you've thwarted Steamboat Willy…and somehow gained a new friend."
     p "Kagami…"
     k "Yeah?"
     p "Let's be cringe together."
-    # play CG scene
+    scene kagami_endingmoon with dissolve
     k "Yeah!"
     jump end
 

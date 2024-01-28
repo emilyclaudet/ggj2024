@@ -21,12 +21,13 @@ label chapter4:
 
 #friendship bracelets scene
 label chapter4_bracelet1:
-    scene black with dissolve
+    scene courtyard with dissolve
     show kagami with dissolve
     k "Okay–what the flip? [playername]! Do you also enjoy the wondrous and delightful taste sensation of friendship bracelet recreations?"
     k "This is so sugoi, my heart’s about to doki-doki into another dimension."
     n "You give Kagami a quirked brow, contorting their face in confusion."
     p "...delightful taste sensation?"
+    show kagami happy with dissolve
     k "Did I stutter?"
     p "No..but.."
     n "You grimace at the thought of crunching on beads–though, oddly enough they do seem…tempting to give a little cronch..."
@@ -37,8 +38,12 @@ label chapter4_bracelet1:
     jump chapter4_bracelet2
 
 label chapter4_bracelet2:
+    scene canteen with dissolve
+    n "It's time for another bracelet making session..."
+    show kagami happy with dissolve
     k "Are…you…ready…TO RUUUUUUUUMBLE!!!!!"
     p "Frick yeah I am–hand over those beads Kagami and let’s get to it."
+    show kagami with dissolve
     k "Erm..actually, these are decorative orbs–not just beads."
     n "You shake your head with a quiet chuckle."
     p "Ah, right right…I knew that, just testing your orb knowledge is all."
@@ -50,6 +55,9 @@ label chapter4_bracelet2:
     jump chapter4_bracelet3
 
 label chapter4_bracelet3:
+    scene library with dissolve
+    n "Another bracelet making session..."
+    show kagami happy with dissolve
     k "Everything is not daijoubou, [playername]."
     k "I dropped all of my decorative orbs and we have ten minutes before Mickey McDickey shows up and tells us to get back in the cage."
     p "But what about our emotionally charged and driven strings of life that brought us to this moment?!"
