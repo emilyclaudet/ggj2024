@@ -62,7 +62,7 @@ label kagami_optionA:
     c "Kagami…"
     show kagami with dissolve
     k "It's not nice to meet you - but I suppose, having a lackey understand the beauty of my power is worthwhile."
-    n "Kagami gets up from his seat, getting ready to leave before he turns around to face [playername] again."
+    n "Kagami gets up from his seat, getting ready to leave before he turns around to face you again."
     show kagami happy with dissolve
     k "But just know, that next time, I'll turn you into toad oil if you get on my bad side again."
     hide kagami with dissolve
@@ -75,7 +75,7 @@ label kagami_optionB:
     u "As you should, hmph. Glad someone around here understands the wonders of my powers. The name's Kagami - come, you are permitted to enter my domain."
     menu:
         "I'm uh, [playername].":
-            "[playername] sits a bit further away from the intimidating man, placing their slop of food on the table as [playername] eyes the villain."
+            n "You sit a bit further away from the intimidating man, placing your slop of food on the table as you lay eyes on the villain."
     k "Bhocolate Bhip Bookies, huh? I'm more of a Bhicken Bugget person—though, your taste in meals are as good as your taste in seating partners." 
     menu:
         "Seating partners?":
@@ -148,7 +148,9 @@ label chapter1_oswald_optionB:
     n "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
     show osbald muscleupset with dissolve
     o "N-non-nothin boss I was just-"
+    show warden happytalkright with dissolve    
     m "hoHO! Of course not! You wouldn’t want to get into any more trouble with me."
+    show warden neutraltalkright with dissolve
     m "Would you Oz?"
     o "N-no Mister Steamboat Warden Willie- sir."
     hide warden with dissolve
@@ -164,14 +166,17 @@ label chapter1_oswald_optionC:
     n "As you come within inches of his face he blushes for a moment before lurching back"
     o "Aw! What the devil! You tryna start something kid!"
     n "He puts his paws up like a boxer from the 20s and starts rhythmically circling them while slowly bobbing his whole body up and down."
-    show warden at left with dissolve
+    show warden angry at left with dissolve
     m "Say fellas, do we have a problem here?"
     show osbald musclesurprised with dissolve
     n "Oswald jumps as Willie clasps his shoulder from behind."
+    show warden excited with dissolve
     n "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
     show osbald muscleupset with dissolve
     o "N-non-nothin boss I was just-"
+    show warden happytalkright with dissolve
     m "hoHO! Of course not! You wouldn't want to get into any more trouble with me."
+    show warden neutraltalkright with dissolve
     m "Would you Oz?"
     o "N-no Mister Steamboat Warden Willie- sir."
     hide warden with dissolve
@@ -245,5 +250,4 @@ label chapter1end:
     show warden happy with dissolve
     m "Anyways! Back to your regularly scheduled programming!"
     jump chapter2
-
 

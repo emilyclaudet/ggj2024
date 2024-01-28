@@ -59,7 +59,7 @@ label chapter4_bracelet3:
     n "Another bracelet making session..."
     show kagami happy with dissolve
     k "Everything is not daijoubou, [playername]."
-    k "I dropped all of my decorative orbs and we have ten minutes before Mickey McDickey shows up and tells us to get back in the cage."
+    k "I dropped all of my decorative orbs and we have ten minutes before Willy shows up and tells us to get back in the cage."
     p "But what about our emotionally charged and driven strings of life that brought us to this moment?!"
     n "Kagami looks at you with a furrowed brow before looking at you, stunned."
     k "YOU’RE RIGHT! I can’t let a few orbs hold me down, I have the bracelet of friendship that I made before you came here!"

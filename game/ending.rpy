@@ -247,7 +247,7 @@ label ending_allthree:
     n "You smile and nod before clasping hands with the group."
     p "Let’s do this-"
     p "Together!"
-    scene black with dissolve
+    scene beach with dissolve
     n "You and your group of hot villain baddies manage to escape from the Steamboat Warden’s tyrannical rule." 
     n "You and your loves now rest in a cabin by the sea, sharing each other’s company happily."
     jump end 

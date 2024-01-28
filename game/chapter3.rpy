@@ -2,7 +2,7 @@
 
 label chapter3:
     scene prison with dissolve
-    show warden with dissolve
+    show warden happytalk with dissolve
     m "It's time to wake up! Another day, another chance to have fun!"
     m "Let's get going before I lose my temper, you wouldn't want me to lose my temper would you? Hah! Just kidding!"
     hide warden with dissolve
@@ -121,7 +121,7 @@ label chapter3_laundry5:
 
 label chapter3_books:
     scene library with dissolve
-    show warden with dissolve
+    show warden happytalk with dissolve
     m "Alright you filthy rats! It's time for ur next activity!"
     m "You need to clean up the mess in this library!"
     hide warden with dissolve
