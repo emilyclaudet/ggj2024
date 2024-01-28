@@ -11,6 +11,7 @@ label chapter3:
 label chapter3_laundry:
     "You and Oz have been sorting piles of laundry in silence for the past 20 minutes. All the clothing is just exact copies of what you saw your fellow inmates wearing, so it’s pretty easy to sort."
     "Even easier than that because Oz wouldn’t let you touch any of the clothes before he sorted all of his out."
+    show osbald with dissolve
     menu:
         "So hows the…":
             o "..."
@@ -71,7 +72,7 @@ label chapter3_laundry4:
 
     #CG HERE
     scene black with dissolve
-    show oswald with dissolve
+    show osbald with dissolve
     o "All ya need to know is that once I had everything."
     o "And that rat took it all from me."
     o "I WAS FIRST! YA HEAR?"
@@ -107,7 +108,7 @@ label chapter3_books:
     m "Alright you filthy rats! It's time for ur next activity!"
     m "You need to clean up the mess in this library!"
     hide warden with dissolve
-    show oswald with dissolve
+    show osbald with dissolve
     o "Can ya believe this? Every book in this library is about him. Whadda narcissist."
     "You also realize that the title of every book you’ve sorted is credited to the warden."
     "You can O continue to sort the books onto the infinitely stretching line of “M” shelves."
@@ -170,4 +171,3 @@ label chapter3_books2:
             "O places you down on your feet."
             "You two have had enough of sorting books"
     jump chapter4
-    

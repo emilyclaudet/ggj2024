@@ -39,6 +39,7 @@ image warden angrytalkright = "angry_warden_openmouth_right"
 image warden sad = "sad_warden_closedmouth"
 image warden sadtalk = "sad_warden_openmouth"
 image warden bashful = "bashful_warden"
+image warden excited = "excited_warden"
 
 #Femme disney villain
 image queen = "queenspider"

@@ -84,7 +84,7 @@ label kagami_optionB:
 
 label chapter1_oswald:
     "You approach the grim bulky figure sitting at the far table."
-    show oswald with dissolve
+    show osbald with dissolve
     "He doesn't appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
     "You're about to sit down but pause when he glares at you."
     o "You want something boy?"
