@@ -114,13 +114,15 @@ label chapter2_ending:
     q "You have a point human."
     menu:
         "Lean in for kiss.":
+            show queen bashful with dissolve
             q "?!"
         "Hold her hand.":
+            show queen bashful with dissolve
             q "?!"
         "Sit in her lap.": 
+            show queen bashful with dissolve
             q "?!"
-    show queen bashful with dissolve
-    q "I suppose we can stay like this…a little longer."
     show queen flirt with dissolve
+    q "I suppose we can stay like this…a little longer."
     "You and the queen enjoy an amateurish and awkward kissing session in the quiet labyrinth."
     jump chapter3

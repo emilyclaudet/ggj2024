@@ -10,9 +10,9 @@ label ending_choice:
     show queen at right with dissolve
     m "The beautiful and- frankly terrifying- Queen Arachnificent!"
     hide queen with dissolve
-    show oswald at right with dissolve
+    show osbald at right with dissolve
     m "The not-so-intimidating Osbald?"
-    hide oswald with dissolve
+    hide osbald with dissolve
     show kagami at right with dissolve
     m "Or, how about the mysterious and edgy Kagami?"
     hide kagami with dissolve
@@ -20,7 +20,7 @@ label ending_choice:
         "My Queen, of course!":
             jump ending_queen
         "I’d like to go with the hunk!":
-            jump ending_oswald
+            jump ending_osbald
         "Give me that bracelet baddie!":
             jump ending_kagami
         "Why can’t I just choose all three?":
@@ -125,6 +125,23 @@ label ending_kagami:
     p "Let's be cringe together."
     # play CG scene
     k "Yeah!"
+    jump end
+
+label ending_osbald:
+    scene black
+    "Placeholder Osbald ending."
+    jump end 
+
+label ending_queen:
+    scene black
+    "Placeholder Queen ending."
+    jump end 
+
+label ending_allthree:
+    scene black
+    "Placeholder all 3 ending."
+    jump end 
+
 
 label ending_warden:
     show warden at center with dissolve
@@ -163,5 +180,7 @@ label ending_warden2:
     jump end
 
 label end:
+    scene black
+    "The End. Thanks for playing!"
     return
 

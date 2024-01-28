@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 9, in script
-    jump debug
-ScriptError: could not find label 'debug'.
+  File "game/ending.rpy", line 23, in script
+    jump ending_oswald
+ScriptError: could not find label 'ending_oswald'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 9, in script
-    jump debug
+  File "game/ending.rpy", line 23, in script
+    jump ending_oswald
   File "/Applications/renpy-8.1.3-sdk/renpy/ast.py", line 1992, in execute
     rv = renpy.game.script.lookup(target)
   File "/Applications/renpy-8.1.3-sdk/renpy/script.py", line 1013, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'debug'.
+ScriptError: could not find label 'ending_oswald'.
 
 macOS-14.2.1-arm64-arm-64bit arm64
 Ren'Py 8.1.3.23091805
 theprisoner 1.0
-Sat Jan 27 20:59:00 2024
+Sat Jan 27 22:53:04 2024

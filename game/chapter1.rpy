@@ -1,5 +1,5 @@
 label chapter1:
-    scene prison with dissolve
+    scene canteen with dissolve
     m "Alrighty, folks! Make your way to the mess hall! Can't work on an empty stomach!"
     show warden with dissolve
     m "Hey there! You look lost! We have loads of new… Erm- friends you can make! Just look over there!"
@@ -165,7 +165,6 @@ label chapter1_queen:
     "You walk up to the beautiful spidery woman, she is stabbing her food with her long legs and eating off of them."
     show queen with dissolve
     menu queen_questions1:
-    show queen with dissolve
         "What are you in here for?":
             show queen happy with dissolve
             q "I tried making everyone beautiful with 8 arms, like me."

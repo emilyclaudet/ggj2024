@@ -1,16 +1,17 @@
 #next is the gangster soprano guy
 
 label chapter3:
-    scene black with dissolve
+    scene prison with dissolve
     show warden with dissolve
-    m "It’s time to wake up! Another day, another chance to have fun!"
-    m "Let’s get going before I lose my temper, you wouldn’t want me to lose my temper would you? Hah! Just kidding!"
+    m "It's time to wake up! Another day, another chance to have fun!"
+    m "Let's get going before I lose my temper, you wouldn't want me to lose my temper would you? Hah! Just kidding!"
     hide warden with dissolve
     jump chapter3_laundry
 
 label chapter3_laundry:
-    "You and Oz have been sorting piles of laundry in silence for the past 20 minutes. All the clothing is just exact copies of what you saw your fellow inmates wearing, so it’s pretty easy to sort."
-    "Even easier than that because Oz wouldn’t let you touch any of the clothes before he sorted all of his out."
+    scene laundryroom with dissolve
+    "You and Oz have been sorting piles of laundry in silence for the past 20 minutes. All the clothing is just exact copies of what you saw your fellow inmates wearing, so it's pretty easy to sort."
+    "Even easier than that because Oz wouldn't let you touch any of the clothes before he sorted all of his out."
     show osbald with dissolve
     menu:
         "So hows the…":
@@ -31,7 +32,7 @@ label chapter3_laundry:
 label chapter3_laundry2:
     "You notice an unusual item underneath the mounds of silk purple dresses and oversized belts."
     "You drag it out from the bottom of the pile and hold it up to get a good look."
-    "It’s. A black muscle suit?"
+    "It's. A black muscle suit?"
     "That looks exactly like Os muscles..."
     menu:
         "...":
@@ -44,7 +45,7 @@ label chapter3_laundry3:
     o "HEY!!!"
     "Oz snatches the costume out of your hands and frantically looks for a place to hide it."
     "He clumsy waddles to the far end of the room and stuffs the suit behind the furthest laundry machine and turns back to you."
-    o "YOU DIDN’T SEE NOTHIN KID!"
+    o "YOU DIDN'T SEE NOTHIN KID!"
 
     menu:
         "Maybe… will you talk to me?":
@@ -55,19 +56,19 @@ label chapter3_laundry3:
 label chapter3_laundry4:
     o "Why you little..."
     "Oz waddles back up to you."
-    o "C’mon! whadda I gotta do ta’ get you to not blab?"
+    o "C'mon! whadda I gotta do ta' get you to not blab?"
     menu chapter3_laundry4_menu:
         "Why do you wear a muscle tee.":
             o "Tsk Why da ya think kid?"
             o "Have you seen the folks here? Freaks! Bafoons!"
-            o "That one kid wit da spiky hair, he’s got some screws loose for sure! I can’t even understand what he’s sayin half the time."
-            o "And dat one dame wit all da legs! Honestly, what she need them all for, and the way her ‘kids’ look at me."
+            o "That one kid wit da spiky hair, he's got some screws loose for sure! I can't even understand what he's sayin half the time."
+            o "And dat one dame wit all da legs! Honestly, what she need them all for, and the way her 'kids' look at me."
             "Oz shudders"
-            "Never heard of a spida eatin a rabbit but naaah. I don’t like it one bit."
-            "Ya gotta look tough ta live around here kid… That’s why you can’t tell anyone."
+            "Never heard of a spida eatin a rabbit but naaah. I don't like it one bit."
+            "Ya gotta look tough ta live around here kid… That's why you can't tell anyone."
             jump chapter3_laundry4_menu
         "Do you and the warden know eachother?":
-            o "Ya don’t know?"
+            o "Ya don't know?"
             o "What baloney are they teachin you kids nowadays?"    
 
     #CG HERE
