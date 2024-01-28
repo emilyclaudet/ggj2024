@@ -253,7 +253,6 @@ label ending_allthree:
     n "You and your loves now rest in a cabin by the sea, sharing each other’s company happily."
     jump end 
 
-
 label ending_warden:
     show warden happy at center with dissolve
     m "..."
@@ -294,7 +293,8 @@ label ending_warden2:
     jump end
 
 label end:
-    scene black
+    scene creditss with dissolve
     "The End. Thanks for playing!"
+    pause 3.0
     return
 

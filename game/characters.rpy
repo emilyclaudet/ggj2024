@@ -18,6 +18,15 @@ image kagami smile = "kagami_smile"
 image kagami smileblink = "kagami_smileblink"
 image kagami smirk = "kagami_smirk"
 image kagami smirkblink = "kagami_smirkblink"
+image kagami surprised = "kagami_surprised"
+image kagami talking1 = "kagami_talking1"
+image kagami talking2 = "kagami_talking2"
+image kagami blush = "kagami_blush"
+image kagami blushblink = "kagami_blushblink"
+image kagami glasses = "kagami_glasses"
+image kagami glasseshappy = "kagami_glasseshappy"
+image kagami licky = "kagami_licky"
+image kagami concerned = "kagami_concerned"
 
 #Kagami animations
 image kagami:

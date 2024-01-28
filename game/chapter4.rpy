@@ -23,18 +23,20 @@ label chapter4:
 #friendship bracelets scene
 label chapter4_bracelet1:
     scene courtyard with dissolve
-    show kagami with dissolve
+    show kagami surprised with dissolve
     k "Okay–what the flip? [playername]! Do you also enjoy the wondrous and delightful taste sensation of friendship bracelet recreations?"
+    show kagami talking1 with dissolve
     k "This is so sugoi, my heart’s about to doki-doki into another dimension."
     n "You give Kagami a quirked brow, contorting their face in confusion."
     p "...delightful taste sensation?"
-    show kagami happy with dissolve
+    show kagami with dissolve
     k "Did I stutter?"
     p "No..but.."
     n "You grimace at the thought of crunching on beads–though, oddly enough they do seem…tempting to give a little cronch..."
+    show kagami happy with dissolve
     n "You sit next to Kagami as he hands you a plastic baggie filled with various crunch-able beads and slurpable string."
-    hide kagami with dissolve
     n "Kagami looks at you and gives a cheeky grin before you both work on your bracelets..."
+    hide kagami with dissolve
     show activity1 with dissolve
     n "You make a scrumdiddlyum bracelet!--Wait, DON’T ACTUALLY EAT IT!!"
     jump chapter4_bracelet2
