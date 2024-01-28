@@ -10,8 +10,8 @@ label chapter3:
 
 label chapter3_laundry:
     scene laundryroom with dissolve
-    "You and Oz have been sorting piles of laundry in silence for the past 20 minutes. All the clothing is just exact copies of what you saw your fellow inmates wearing, so it's pretty easy to sort."
-    "Even easier than that because Oz wouldn't let you touch any of the clothes before he sorted all of his out."
+    n "You and Oz have been sorting piles of laundry in silence for the past 20 minutes. All the clothing is just exact copies of what you saw your fellow inmates wearing, so it's pretty easy to sort."
+    n "Even easier than that because Oz wouldn't let you touch any of the clothes before he sorted all of his out."
     show osbald with dissolve
     menu:
         "So hows the…":
@@ -30,10 +30,10 @@ label chapter3_laundry:
     jump chapter3_laundry2
 
 label chapter3_laundry2:
-    "You notice an unusual item underneath the mounds of silk purple dresses and oversized belts."
-    "You drag it out from the bottom of the pile and hold it up to get a good look."
-    "It's. A black muscle suit?"
-    "That looks exactly like Oz's muscles..."
+    n "You notice an unusual item underneath the mounds of silk purple dresses and oversized belts."
+    n "You drag it out from the bottom of the pile and hold it up to get a good look."
+    n "It's. A black muscle suit?"
+    n "That looks exactly like Oz's muscles..."
     menu:
         "... Oz?":
             jump chapter3_laundry3
@@ -41,10 +41,10 @@ label chapter3_laundry2:
             jump chapter3_laundry3
 
 label chapter3_laundry3:
-    "Oz looks up and his eyes widen in terror, his face turns red as a tomato."
+    n "Oz looks up and his eyes widen in terror, his face turns red as a tomato."
     oz "HEY!!!"
-    "Oz snatches the costume out of your hands and frantically looks for a place to hide it."
-    "He clumsy waddles to the far end of the room and stuffs the suit behind the furthest laundry machine and turns back to you."
+    n "Oz snatches the costume out of your hands and frantically looks for a place to hide it."
+    n "He clumsy waddles to the far end of the room and stuffs the suit behind the furthest laundry machine and turns back to you."
     oz "YOU DIDN'T SEE NOTHIN KID!"
 
     menu:
@@ -55,7 +55,7 @@ label chapter3_laundry3:
 
 label chapter3_laundry4:
     oz "Why you little..."
-    "Oz waddles back up to you."
+    n "Oz waddles back up to you."
     oz "C'mon! whadda I gotta do ta' get you to not blab?"
     menu chapter3_laundry4_menu:
         "Why do you wear a muscle tee.":
@@ -63,9 +63,9 @@ label chapter3_laundry4:
             oz "Have you seen the folks here? Freaks! Bafoons!"
             oz "That one kid wit da spiky hair, he's got some screws loose for sure! I can't even understand what he's sayin half the time."
             oz "And dat one dame wit all da legs! Honestly, what she need them all for, and the way her 'kids' look at me."
-            "Oz shudders"
-            "Never heard of a spida eatin a rabbit but naaah. I don't like it one bit."
-            "Ya gotta look tough ta live around here kid… That's why you can't tell anyone."
+            n "Oz shudders"
+            n "Never heard of a spida eatin a rabbit but naaah. I don't like it one bit."
+            n "Ya gotta look tough ta live around here kid… That's why you can't tell anyone."
             jump chapter3_laundry4_menu
         "Do you and the warden know eachother?":
             oz "Ya don't know?"
@@ -87,8 +87,8 @@ label chapter3_laundry4:
     oz "But-"
     oz "But I guess it’s not like I need to… Even a nobody like yous knows who I am."
     oz "Who I was…"
-    "Oz looks down at his Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots, hands crossed infront of his foam chest."
-    "He suddenly stands much smaller, deflated."
+    n "Oz looks down at his Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots, hands crossed infront of his foam chest."
+    n "He suddenly stands much smaller, deflated."
     menu:
         "You reach out to hug him.":
             "Oz pulls away before you can touch him."
@@ -98,7 +98,7 @@ label chapter3_laundry4:
 
 label chapter3_laundry5:
     oz "I said too much…"
-    "Oz turns back to sort laundry"
+    n "Oz turns back to sort laundry"
     oz "Hope you’re happy kid, cuz I’m not blabbin anymore."
     jump chapter3_books
 
@@ -111,27 +111,27 @@ label chapter3_books:
     hide warden with dissolve
     show osbald with dissolve
     oz "Can ya believe this? Every book in this library is about him. Whadda narcissist."
-    "You also realize that the title of every book you’ve sorted is credited to the warden."
-    "You and Oz continue to sort the books onto the infinitely stretching line of “M” shelves."
+    n "You also realize that the title of every book you’ve sorted is credited to the warden."
+    n "You and Oz continue to sort the books onto the infinitely stretching line of “M” shelves."
     menu:
         "Why don’t you take off the Muscle suit?":
             "Oz opens his mouth, ready to send another bitter rant your way, before pausing…"
     oz "Yer right. I can’t hide myself from you anymore."
     # update oswald asset
-    "Oz goes behind the shelf and comes back without the muscle suit. He suddenly looks much more familiar to you."
+    n "Oz goes behind the shelf and comes back without the muscle suit. He suddenly looks much more familiar to you."
     oz "It’s easier to move like this."
     menu:
         "You’re Osbald the Fortunate Rodent!":
             "You see Osbald's mouth drop and his eyes filled with shock and awe for just a moment before returning back to his normal grimmace."
     o "So they do teach you kids something…"
-    "You run eventually run out of room on the shelves close enough to the door that you feel comfortable going to. Osbald brings out a ladder to reach the higher shelves"
-    "You volunteer to be the one at the top of the ladder, Osbald holds it at the bottom to keep you steady."
+    n "You run eventually run out of room on the shelves close enough to the door that you feel comfortable going to. Osbald brings out a ladder to reach the higher shelves"
+    n "You volunteer to be the one at the top of the ladder, Osbald holds it at the bottom to keep you steady."
     o "So you know who I am."
     o "I’m… flattered."
     o "But… you know too much."
     o "I’m gonna hafta bum ya off."
     #Author Note: “Bump Off” was 20s slang for murder/kill
-    "You feel the ladder shake and wobble under your feet."
+    n "You feel the ladder shake and wobble under your feet."
     menu:
         "Wait wait wait! I- uh I love you Osbald.":
             jump chapter3_books2
@@ -139,19 +139,19 @@ label chapter3_books:
             jump chapter3_books2
 
 label chapter3_books2:
-    "Despite your pleas and attempt to hang, you feel yourself slip and fall. You squeeze your eyes shut and wait for your head to break on the hard "Willie the Warden" themed floor tiling."
-    "But you don’t"
-    "Instead you feel two very soft paws cradling you."
-    "You open your eyes..."
+    n "Despite your pleas and attempt to hang, you feel yourself slip and fall. You squeeze your eyes shut and wait for your head to break on the hard "Willie the Warden" themed floor tiling."
+    n "But you don’t"
+    n "Instead you feel two very soft paws cradling you."
+    n "You open your eyes..."
     #CG START
     o "You mean it?"
     #CG END
     menu:
         "Yes I- uh- you’re very attractive and um... kind!":
-            "Osbald blushes but this time he doesn’t look away."
+            n "Osbald blushes but this time he doesn’t look away."
             o "Really?"
         "Whenever I got to watch cartoons as a kid. I always wanted to watch you!":
-            "Osbald blushes but this time he doesn’t look away."
+            n "Osbald blushes but this time he doesn’t look away."
             o "Really?"
     menu:
         "Really! We should totally get revenge on that rat. Together!":
@@ -166,10 +166,10 @@ label chapter3_books2:
             o "Woah there! Uh, I ain’t into that stuff kid."
             p "Oh. Sorry…"
             o "Besides I gotta be at least 3 times your age."
-            "Osbald places you down on your feet."
-            "You two have had enough of sorting books."
+            n "Osbald places you down on your feet."
+            n "You two have had enough of sorting books."
         "Ask to be put down":
             o "Yeah! Yeah…"
-            "Osbald places you down on your feet."
-            "You two have had enough of sorting books"
+            n "Osbald places you down on your feet."
+            n "You two have had enough of sorting books"
     jump chapter4
