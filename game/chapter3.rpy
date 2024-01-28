@@ -46,6 +46,7 @@ label chapter3_laundry3:
     n "Oz looks up and his eyes widen in terror, his face turns red as a tomato."
     oz "HEY!!!"
     n "Oz snatches the costume out of your hands and frantically looks for a place to hide it."
+    show osbald musclebadsurprisedred at halfsize
     n "He clumsy waddles to the far end of the room and stuffs the suit behind the furthest laundry machine and turns back to you."
     show osbald muscleupset with dissolve
     oz "YOU DIDN'T SEE NOTHIN KID!"

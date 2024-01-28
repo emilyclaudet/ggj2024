@@ -210,7 +210,7 @@ label ending_queen:
             show queen bashful with dissolve
             q "Finally someone understands."
     show queen annoyed with dissolve
-    q "We can now communicate without that mousey faker dreams getting in our way."
+    q "We can now communicate without that mousey faker of dreams getting in our way."
     q "“That warden tried to snuff my archetype out…thinking I was too old for this world..BUT I WILL REIGN SUPREME AGAIN."
     p "We’re escaping together?"
     q "You catch on quickly."
@@ -222,7 +222,7 @@ label ending_queen:
             q "..."
             show queen happy with dissolve
             q "My babies eat indiscriminately..but I will try to control them to the best of my ability. Just for you my darling."
-        "..can we at least Osbald and Kagami?":
+        "..can we at least spare Osbald and Kagami?":
             show queen annoyed with dissolve
             q "..you really care about those fools?"
             show queen happy with dissolve
