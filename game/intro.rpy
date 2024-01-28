@@ -1,6 +1,6 @@
 label intro:
     scene black
-    "The warden is bringing you to your cell after you have been 'sentenced.'"
+    n "The warden is bringing you to your cell after you have been 'sentenced.'"
     scene prison with dissolve
     show warden with dissolve
     m "Ha ha! Welcome to the Interdimensional Prison for Villains! Within these walls are..."
@@ -29,9 +29,9 @@ label intro:
 
 label intro_cell:
     scene black with dissolve
-    "There's a schedule on the wall..."
+    n "There's a schedule on the wall..."
     show schedule at top with dissolve
-    "Activities for next 3 days."
+    n "Activities for next 3 days."
     hide schedule with dissolve
-    "First there's breakfast..."
+    n "First there's breakfast..."
     jump chapter1

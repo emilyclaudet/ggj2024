@@ -23,8 +23,8 @@ label chapter1_kagami:
             jump kagami_optionB
 
 label kagami_optionA:
-    "You ignore his threat and takes another step forward. Silence fills the space between them. Nothing seemed to have happened."
-    "The strange man looks at you perplexed before pointing at you angrily."
+    n "You ignore his threat and takes another step forward. Silence fills the space between them. Nothing seemed to have happened."
+    n "The strange man looks at you perplexed before pointing at you angrily."
     u "Uh - I was merely testing you, mortal. >:c! You are not worthy of my hyper blast fist of the south star."
     "You nod, stifling a laugh, before they sit next to the strange man."
     menu:
@@ -43,21 +43,21 @@ label kagami_optionA:
     menu: 
         "I don't know if I really want to know anymore, Cringelord just…oh, I don't know…just rolls off the tongue whenever I conceptualize you.":
             c "shocked face...."
-    "Defeated, Cringelord hangs his head."
+    n "Defeated, Cringelord hangs his head."
     menu:
         "Relax, I was just testing you like you did me earlier.--I'm [playername]":
-            "You felt a bit bad for breaking the illusion of “coolness” for this guy. Though he was a bit cringe, he was an entertaining and oddly vibrant breath of fresh air in this otherwise dulled and surreal hellscape."
-    "Cringelord shifts his gaze upwards..."
+            n "You felt a bit bad for breaking the illusion of “coolness” for this guy. Though he was a bit cringe, he was an entertaining and oddly vibrant breath of fresh air in this otherwise dulled and surreal hellscape."
+    n "Cringelord shifts his gaze upwards..."
     c "Kagami…"
     k "It's not nice to meet you - but I suppose, having a lackey understand the beauty of my power is worthwhile."
-    "Kagami gets up from his seat, getting ready to leave before he turns around to face [playername] again."
+    n "Kagami gets up from his seat, getting ready to leave before he turns around to face [playername] again."
     k "But just know, that next time, I'll turn you into toad oil if you get on my bad side again."
     "[playername] watches Kagami leave. They felt bewildered but decided to not think about the weird guy anymore and instead focused on the weird dystopian slop on his plate…known as a bhocolate bhip bookie."
-    "Bell rings and it's time for him to do an activity!-"
+    n "Bell rings and it's time for him to do an activity!-"
     jump chapter1end
 
 label kagami_optionB:
-    "You nervously step backwards, feeling a wall of intimidation blocking your path forward."
+    n "You nervously step backwards, feeling a wall of intimidation blocking your path forward."
     u "As you should, hmph. Glad someone around here understands the wonders of my powers. The name's Kagami - come, you are permitted to enter my domain."
     menu:
         "I'm uh, [playername].":
@@ -66,27 +66,27 @@ label kagami_optionB:
     menu:
         "Seating partners?":
             k "Aha, is that not what we are?"
-    "Kagami lets out a thunderous roar of laughter."
+    n "Kagami lets out a thunderous roar of laughter."
     k "My dear lackey, you have chosen wisely. I have been in this domain expansion before…"
     k "You see, I was a murderer - reformed and then..unformed…I murdered again and here we are."
     k "Choosing a person to sit with for a meal- an expert of this prison, in fact…why, you may have just saved yourself from being killed."
-    "Kagami gives [playername] a smug grin, nudging his shoulder at them before he takes a bite of his bhicken bugget."
+    n "Kagami gives you a smug grin, nudging his shoulder at them before he takes a bite of his bhicken bugget."
     menu:
         "Is this place really that dangerous?":
-            k "Not as dangerous as myself - buuut, I guess you could say it comes in at a close third place. Second has to go to Mickey McGuzzler."
-    "You reflect over your interactions with Mickey Mouse, his threatening and booming voice sent shivers down your spine."
-    "Though, this Kagami guy was nothing in comparison…he felt more like a gentle gust of wind that sent a piece of dirt in your eye, if anything."
+            k "Not as dangerous as myself - buuut, I guess you could say it comes in at a close third place. Second has to go to Steamboat Warden Willie."
+    n "You reflect over your interactions with the Steamboat Warden Willie, his threatening and booming voice sent shivers down your spine."
+    n "Though, this Kagami guy was nothing in comparison…he felt more like a gentle gust of wind that sent a piece of dirt in your eye, if anything."
     menu:
         "Ah…I see.":
-            "You finish the last of your Bhocolate Bhip Bookies before Kagami continues his monologue of being the most powerful prisoner."
-    "[playername] waves at Kagami as he is mid monologue and darts away."
+            n "You finish the last of your Bhocolate Bhip Bookies before Kagami continues his monologue of being the most powerful prisoner."
+    n "You wave at Kagami as he is mid monologue and darts away."
     jump chapter1end
 
 label chapter1_oswald:
-    "You approach the grim bulky figure sitting at the far table."
+    n "You approach the grim bulky figure sitting at the far table."
     show osbald with dissolve
-    "He doesn't appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
-    "You're about to sit down but pause when he glares at you."
+    n "He doesn't appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
+    n "You're about to sit down but pause when he glares at you."
     o "You want something boy?"
     menu:
         "Can I try your pipe?":
@@ -97,7 +97,7 @@ label chapter1_oswald:
         "Can I eat that? It looks like you haven't touched it…":
             o "Keep talking like that boy they only think y'll be eatin is the heel of my Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots."
             "You look down at his feet but you can't really tell what he's wearing, they're just black blobs"
-    "You stay silent."
+    n "You stay silent."
     o "That's what I thought punk."
     o "Scram if ya know what's good for ya."
     menu:
@@ -112,33 +112,33 @@ label chapter1_oswald:
 
 
 label chapter1_oswald_optionA:
-    "You scram."
-    "..."
-    "Lame."
+    n "You scram."
+    k "..."
+    k "Lame."
     jump chapter1end
 
 label chapter1_oswald_optionB:
     o "AW! What the devil! You tryna start something kid!"
-    "He puts his paws up like John L. Sullivan and starts rhythmically circling them while slowly bobbing his whole body up and down."
+    n "He puts his paws up like John L. Sullivan and starts rhythmically circling them while slowly bobbing his whole body up and down."
     show warden at left with dissolve
     m "Say fellas, do we have a problem here?"
-    "Oswald jumps as Willie clasps his shoulder from behind."
-    "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
+    n "Oswald jumps as Willie clasps his shoulder from behind."
+    n "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
     o "N-non-nothin boss I was just-"
     m "hoHO! Of course not! You wouldn’t want to get into any more trouble with me."
     m "Would you Oz?"
     o "N-no Mister Steamboat Warden Willie- sir."
     hide warden with dissolve
     o "*whispers* You lucky the rat is watching."
-    "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
-    "He inhales too much and starts gagging."
-    "You might want to consider this one a lost cause."
+    n "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
+    n "He inhales too much and starts gagging."
+    n "You might want to consider this one a lost cause."
     jump chapter1end
 
 label chapter1_oswald_optionC:
-    "As you come within inches of his face he blushes for a moment before lurching back"
+    n "As you come within inches of his face he blushes for a moment before lurching back"
     o "Aw! What the devil! You tryna start something kid!"
-    "He puts his paws up like a boxer from the 20s and starts rhythmically circling them while slowly bobbing his whole body up and down."
+    n "He puts his paws up like a boxer from the 20s and starts rhythmically circling them while slowly bobbing his whole body up and down."
     show warden at left with dissolve
     m "Say fellas, do we have a problem here?"
     "Oswald jumps as Willie clasps his shoulder from behind."
@@ -149,20 +149,20 @@ label chapter1_oswald_optionC:
     o "N-no Mister Steamboat Warden Willie- sir."
     hide warden with dissolve
     o "*whispers* You lucky the rat is watching."
-    "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
-    "He inhales too much and starts gagging."
-    "You might want to consider this one a lost cause."
+    n "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
+    n "He inhales too much and starts gagging."
+    n "You might want to consider this one a lost cause."
     jump chapter1end
 
 label chapter1_oswald_optionD:
-    "He glares at you. Again. It looks like he's trying to be more intimidating than before… but it sort of just looks like he's constipated."
-    "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
-    "He inhales too much and starts gagging."
-    "You might want to consider this one a lost cause."
+    n "He glares at you. Again. It looks like he's trying to be more intimidating than before… but it sort of just looks like he's constipated."
+    n "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
+    n "He inhales too much and starts gagging."
+    n "You might want to consider this one a lost cause."
     jump chapter1end
 
 label chapter1_queen:
-    "You walk up to the beautiful spidery woman, she is stabbing her food with her long legs and eating off of them."
+    n "You walk up to the beautiful spidery woman, she is stabbing her food with her long legs and eating off of them."
     show queen with dissolve
     menu queen_questions1:
         "What are you in here for?":

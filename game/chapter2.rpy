@@ -1,12 +1,12 @@
 #first is the queen
 
 label chapter2:
-    scene black with dissolve
-    "You are in the trash area"
+    scene courtyard_trash with dissolve
+    n "You are in the courtyard area. There are trash bags piled to the sky."
     show warden with dissolve
     m "Ha ha! C'mooon fellas, it's time to pick up the trash if you want your next meal!"
     hide warden with dissolve
-    "You see the same beautiful tall spidery woman glaring at the piles of trash. Her legs and chins jiggle majestically as she walks, her devious smile is enough to set the trash on fire. Metaphorically."
+    n "You see the same beautiful tall spidery woman glaring at the piles of trash. Her legs and chins jiggle majestically as she walks, her devious smile is enough to set the trash on fire. Metaphorically."
     show queen with dissolve
     q "These specks of trash are beneath me."
     q "Oh! It's you little maggot."
@@ -48,7 +48,7 @@ label chapter2:
         "Stop picking up the trash":
             show queen annoyed with dissolve
             q "You fool! Who told you you could stop?!"
-    "You continue picking up the trash, most of it is cleared. Arachnificent smiles, pleased. She starts decorating her crown with extra silken webs. How do you keep her attention?"
+    n "You continue picking up the trash, most of it is cleared. Arachnificent smiles, pleased. She starts decorating her crown with extra silken webs. How do you keep her attention?"
 
     menu:
         "Juggle the trash in the air":
@@ -58,7 +58,10 @@ label chapter2:
             "Arachnificent raises her eyebrows, looking at you with surprise."
             show queen happy with dissolve
             q "I didn't know little human worms could be so bold and expressive."
-    "You finished clearing up the trash with the queen, and enjoyed it more than you thought you would."
+    hide queen with dissolve
+    n "You finished clearing up the trash with the queen..."
+    scene courtyard with dissolve
+    n "and enjoyed it more than you thought you would."
     jump chapter2_mopping
 
 label chapter2_mopping:
@@ -83,7 +86,7 @@ label chapter2_mopping:
         "Say nothing":
             q "?!"
             q "Whatever it is we can save it for after the cleaning, that freakish rodent is always watching."
-            "You and Arachnificent peacefully mop together. The endless abyss of neon tunnels don’t seem as cold and barren anymore."
+            n "You and Arachnificent peacefully mop together. The endless abyss of neon tunnels don’t seem as cold and barren anymore."
             q "Human, you have shown yourself to be quite useful. In another life I would have put you to use and taken over the world."
     menu:
         "We can still take over the world":
@@ -94,7 +97,7 @@ label chapter2_mopping:
 
 label chapter2_ending:
     q "?!"
-    "Arachnificent plays with her webs, she looks lost in thought before she shakes her head."
+    n "Arachnificent plays with her webs, she looks lost in thought before she shakes her head."
     show queen annoyed with dissolve
     q "You fool, do you really expect that fantasy to play out? Romance stories are reserved for heroes and princesses. Not villainous queens..and..whatever you are."
     menu:
@@ -124,5 +127,5 @@ label chapter2_ending:
             q "?!"
     show queen flirt with dissolve
     q "I suppose we can stay like this…a little longer."
-    "You and the queen enjoy an amateurish and awkward kissing session in the quiet labyrinth."
+    n "You and the queen enjoy an amateurish and awkward kissing session in the quiet labyrinth."
     jump chapter3
