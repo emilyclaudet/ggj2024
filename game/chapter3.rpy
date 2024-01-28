@@ -126,25 +126,37 @@ label chapter3_books:
     m "Alright you filthy rats! It's time for ur next activity!"
     m "You need to clean up the mess in this library!"
     hide warden with dissolve
-    show osbald with dissolve
+    show osbaldmuscle upset with dissolve
     oz "Can ya believe this? Every book in this library is about him. Whadda narcissist."
+    hide osbaldmuscle upset with dissolve
     n "You also realize that the title of every book you’ve sorted is credited to the warden."
     n "You and Oz continue to sort the books onto the infinitely stretching line of “M” shelves."
     menu:
         "Why don’t you take off the Muscle suit?":
+            show osbaldmuscle surprised with dissolve
             "Oz opens his mouth, ready to send another bitter rant your way, before pausing…"
+    show osbaldmuscle with dissolve
     oz "Yer right. I can’t hide myself from you anymore."
+    hide osbaldmuscle with dissolve
     # update oswald asset
     n "Oz goes behind the shelf and comes back without the muscle suit. He suddenly looks much more familiar to you."
+    show osbald with dissolve
     oz "It’s easier to move like this."
     menu:
         "You’re Osbald the Fortunate Rodent!":
+            show osbald surprisedblushing with dissolve
             "You see Osbald's mouth drop and his eyes filled with shock and awe for just a moment before returning back to his normal grimmace."
+    show osbald wiht dissolve
     o "So they do teach you kids something…"
+    hide osbald with dissolve
     n "You run eventually run out of room on the shelves close enough to the door that you feel comfortable going to. Osbald brings out a ladder to reach the higher shelves"
     n "You volunteer to be the one at the top of the ladder, Osbald holds it at the bottom to keep you steady."
+    show
+    show osbald with dissolve
     o "So you know who I am."
+    show osbald distantsad with dissolve
     o "I’m… flattered."
+    show osbald upset with dissolve
     o "But… you know too much."
     o "I’m gonna hafta bum ya off."
     #Author Note: “Bump Off” was 20s slang for murder/kill
@@ -156,36 +168,43 @@ label chapter3_books:
             jump chapter3_books2
 
 label chapter3_books2:
+    hide osbald upset with dissolve
     n "Despite your pleas and attempt to hang, you feel yourself slip and fall. You squeeze your eyes shut and wait for your head to break on the hard 'Willie the Warden' themed floor tiling."
     n "But you don’t"
     n "Instead you feel two very soft paws cradling you."
     n "You open your eyes..."
-    #CG START
+    show osbald surprised with dissolve
     o "You mean it?"
-    #CG END
     menu:
         "Yes I- uh- you’re very attractive and um... kind!":
+            show osbald surprisedblushing with dissolve
             n "Osbald blushes but this time he doesn’t look away."
             o "Really?"
         "Whenever I got to watch cartoons as a kid. I always wanted to watch you!":
+            show osbald surprisedblushing with dissolve
             n "Osbald blushes but this time he doesn’t look away."
             o "Really?"
     menu:
         "Really! We should totally get revenge on that rat. Together!":
+            show osbald evilgrin with dissolve
             o "Gahahahaha!"
             o "Yer right kid, I ain’t the only whose got beef with em! We’re gonna get everyone in this prison ta bump him off."
         "Really! We should get outta here together! I’ll help you spread the word that Osbald is back!":
+            show osbald evilgrin with dissolve
             "Osbald widens his grin."
             o "I like what you’re spinnin kid! I’m gonna crush that rat! I’ll be back to my former glory!"
             o "And you’re gonna help me do it. Kid."
     menu:
         "Lean in for a kiss":
+            show osbald surprisered with dissolve
             o "Woah there! Uh, I ain’t into that stuff kid."
             p "Oh. Sorry…"
+            show osbald with dissolve
             o "Besides I gotta be at least 3 times your age."
             n "Osbald places you down on your feet."
             n "You two have had enough of sorting books."
         "Ask to be put down":
+            show osbald with dissolve
             o "Yeah! Yeah…"
             n "Osbald places you down on your feet."
             n "You two have had enough of sorting books"
