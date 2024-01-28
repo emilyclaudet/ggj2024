@@ -102,13 +102,15 @@ label chapter1_oswald:
     show osbald muscle with dissolve
     n "He doesn't appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
     n "You're about to sit down but pause when he glares at you."
-    show osbald musclebadsurprised with dissolve
+    show osbald muscleupset with dissolve
     o "You want something boy?"
     menu:
         "Can I try your pipe?":
+            show osbald muscle with dissolve
             o "shove it up yer ass."
-            "The fact that he doesn't offer you the pipe leads you to believe he isn't offering to insert the pipe into your rear."
+            n "The fact that he doesn't offer you the pipe leads you to believe he isn't offering to insert the pipe into your rear."
         "Can I sit next to you?":
+            show osbald muscle with dissolve
             o "Guess kid."
         "Can I eat that? It looks like you haven't touched it…":
             o "Keep talking like that boy they only think y'll be eatin is the heel of my Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots."
@@ -130,23 +132,27 @@ label chapter1_oswald:
 
 label chapter1_oswald_optionA:
     n "You scram."
-    o "..."
     show osbald muscle with dissolve
+    o "..."
     o "Lame."
     jump chapter1end
 
 label chapter1_oswald_optionB:
+    show osbald musclebadsurprised with dissolve
     o "AW! What the devil! You tryna start something kid!"
     n "He puts his paws up like John L. Sullivan and starts rhythmically circling them while slowly bobbing his whole body up and down."
     show warden at left with dissolve
     m "Say fellas, do we have a problem here?"
+    show osbald musclesurprised with dissolve
     n "Oswald jumps as Willie clasps his shoulder from behind."
     n "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
+    show osbald muscleupset with dissolve
     o "N-non-nothin boss I was just-"
     m "hoHO! Of course not! You wouldn’t want to get into any more trouble with me."
     m "Would you Oz?"
     o "N-no Mister Steamboat Warden Willie- sir."
     hide warden with dissolve
+    show osbald muscle with dissolve
     o "*whispers* You lucky the rat is watching."
     n "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
     n "He inhales too much and starts gagging."
@@ -154,18 +160,22 @@ label chapter1_oswald_optionB:
     jump chapter1end
 
 label chapter1_oswald_optionC:
+    show osbald musclebadsurprisedred with dissolve
     n "As you come within inches of his face he blushes for a moment before lurching back"
     o "Aw! What the devil! You tryna start something kid!"
     n "He puts his paws up like a boxer from the 20s and starts rhythmically circling them while slowly bobbing his whole body up and down."
     show warden at left with dissolve
     m "Say fellas, do we have a problem here?"
+    show osbald musclesurprised with dissolve
     n "Oswald jumps as Willie clasps his shoulder from behind."
     n "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
+    show osbald muscleupset with dissolve
     o "N-non-nothin boss I was just-"
     m "hoHO! Of course not! You wouldn't want to get into any more trouble with me."
     m "Would you Oz?"
     o "N-no Mister Steamboat Warden Willie- sir."
     hide warden with dissolve
+    show osbald muscle with dissolve
     o "*whispers* You lucky the rat is watching."
     n "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
     n "He inhales too much and starts gagging."
@@ -173,7 +183,9 @@ label chapter1_oswald_optionC:
     jump chapter1end
 
 label chapter1_oswald_optionD:
+    show osbald muscleupset with dissolve
     n "He glares at you. Again. It looks like he's trying to be more intimidating than before… but it sort of just looks like he's constipated."
+    hide osbald muscleupset with dissolve
     n "Before you can do anything else he walks over to the corner of the cafeteria to inhale more smoke."
     n "He inhales too much and starts gagging."
     n "You might want to consider this one a lost cause."
