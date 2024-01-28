@@ -15,7 +15,7 @@ image kagami stern = "anime_villain_concept2"
 image kagami back = "anime_villain_conceptback"
 
 #Soprano
-image oswald = "sopranoconcept"
+image osbald = "sopranoconcept"
 
 #Steamboat
 image warden = "neutral_warden_closedmouth_forward"
@@ -42,4 +42,13 @@ image warden bashful = "bashful_warden"
 image warden excited = "excited_warden"
 
 #Femme disney villain
-image queen = "queenspider"
+image queen = "1Queen_Neutral"
+image queen blink = "1Queen_Neutral_blink"
+image queen happy = "2Queen_Happy"
+image queen annoyedblink "3Queen_Annoyed_blink"
+image queen annoyed = "3Queen_Annoyed"
+image queen sad = "4Queen_Sad"
+image queen bashfulblink = "5Queen_Bashful_blink"
+image queen bashful = "5Queen_Bashful"
+image queen flirtyblink = "6Queen_Flirty_blink"
+image queen flirty = "6Queen_Flirty"
