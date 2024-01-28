@@ -55,7 +55,7 @@ label ending_kagami:
     n "The force of his hands impacting the rugged stone wall left muffled echoes of his attack."
     scene tintwall with dissolve
     n "The wall remained unphased by Kagami and you find yourself wondering why you ever bothered asking him."
-    k "It was a…miss input–I just need to focus on my chakra!"
+    k "It was a...miss input–I just need to focus on my chakra!"
     n "You stare at Kagami as he continues hitting his hand against the wall."
     n "The only damage being done here seems to be your brain cells as you continue to steel yourself against the cringe you’re witnessing."
     scene gym with dissolve
@@ -74,41 +74,49 @@ label ending_kagami:
     k "But…I never murdered anyone…"
     p "Yeah I could tell by your honey fists hitting the wall. If anything, it looked like you were giving it a well deserved massage."
     n "Kagami ignored your remark."
+    show kagami with dissolve
     k "The first time I came here…it was from repeated Jaywalking…"
     p "...Really?"
     show kagami happy with dissolve
     k "The urge to be diagonal was too strong to resist…The speed…The velocity…It felt like I was Sanic the Speedster in that moment…"
     n "He let out a passionate sigh, balling his fists as he looked longingly at the sky."
+    show kagami with dissolve
     k "And now…I’m in jail for tax fraud."
     p "That one actually seems serious, color me surprised!"
     k "[playername]...The pain of not understanding taxes was too daunting for me–THEY NEVER TAUGHT IT IN SCHOOL…granted I always skipped classes–BUT STILL."
     show kagami with dissolve
     k "I blame society for causing me to fail…"
     p "Sounds like a skill issue."
+    show kagami annoyed with dissolve
     k "And a skill issue it may be…and a failure I am…"
     k "I have no lackeys…no gang of menacing monsters…"
     k "Only my Sunday Funday anime club members…but sadly it's Saturday–so I have…no one."
     p "Ahhh…it’s all making sense now."
     k "Me being a failure?"
     p "No, why you’re so cringe."
+    show kagami blush with dissolve
     n "Kagami looks at you with distraught before sadly agreeing with a pitiful nod."
-    show kagami annoyed with dissolve
+    show kagami with dissolve
     k "[playername]...I don’t want to be in this crusty dusty musty prison anymore."
     p "Neither do I..."
     k "...A new season of Jim Jim’s Mild Ventures came out before I got arrested."
     k "I can’t bear the thought of coming back to the mainland and getting spoiled–I need to get out of here before it’s too late."
     k "The fate of the Bowl Society rests in my hands, [playername]!"
     p "B-Bowl…society?"
+    show kagami happy with dissolve
     k "The legion of fierce warriors, my comrades in arms–it is what we call our anime club."
     n "You bite down on your inner cheek, resisting the urge to laugh at the crude name."
     k "We all…get bowl hair cuts together at the start of each year so–"
     p "Nope, nope…no need to explain. Bowl society needs to be saved."
     n "Kagami nods at your response, but soon lets out an exasperated sigh."
+    show kagami with dissolve
     k "But how can we even escape…we have nothing.."
     p "That’s not true Kagami!"
+    show kagami concerned with dissolve
     n "He looks at you in confusion."
     p "Haven’t you learned anything from all of our bracelet making? We have the power of friendship! I’m sure we can…figure…something out…"
     n "Your voice trails off with uncertainty. Maybe there really was no way to get out of here…"
+    show kagami happy with dissolve
     k "I’VE GOT IT!!"
     p "Eh?"
     k "OUR FRIENDSHIP BRACELETS!!"

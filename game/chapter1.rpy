@@ -5,6 +5,7 @@ label chapter1:
     m "Alrighty, folks!"
     m "Make your way to the mess hall! Can't work on an empty stomach!"
     scene canteen with dissolve
+    play music dreamtheme
     show warden happytalk with dissolve
     m "Hey there! You look lost! We have loads of new…"
     show warden neutraltalk with dissolve
