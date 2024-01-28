@@ -10,7 +10,7 @@ label chapter1:
     m "Erm- friends you can make! Just look over there!"
     hide warden with dissolve
     show queen with dissolve
-    show osbald at center with dissolve
+    show osbald muscle at center with dissolve
     show kagami at left with dissolve 
     m "Don't they look nice? Why don't you go and talk to them?"
     menu: 
@@ -98,9 +98,10 @@ label kagami_optionB:
 label chapter1_oswald:
     scene canteen with dissolve
     n "You approach the grim bulky figure sitting at the far table."
-    show osbald with dissolve
+    show osbald muscle with dissolve
     n "He doesn't appear to eating anything, just holding in coughs and gasp from repeatedly taking hits from his comically large pipe."
     n "You're about to sit down but pause when he glares at you."
+    show osbald musclebadsurprised with dissolve
     o "You want something boy?"
     menu:
         "Can I try your pipe?":
@@ -112,6 +113,7 @@ label chapter1_oswald:
             o "Keep talking like that boy they only think y'll be eatin is the heel of my Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots."
             "You look down at his feet but you can't really tell what he's wearing, they're just black blobs"
     n "You stay silent."
+    show osbald muscleevilgrin with dissolve
     o "That's what I thought punk."
     o "Scram if ya know what's good for ya."
     menu:
@@ -127,8 +129,9 @@ label chapter1_oswald:
 
 label chapter1_oswald_optionA:
     n "You scram."
-    k "..."
-    k "Lame."
+    o "..."
+    show osbald muscle with dissolve
+    o "Lame."
     jump chapter1end
 
 label chapter1_oswald_optionB:
@@ -155,8 +158,8 @@ label chapter1_oswald_optionC:
     n "He puts his paws up like a boxer from the 20s and starts rhythmically circling them while slowly bobbing his whole body up and down."
     show warden at left with dissolve
     m "Say fellas, do we have a problem here?"
-    "Oswald jumps as Willie clasps his shoulder from behind."
-    "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
+    n "Oswald jumps as Willie clasps his shoulder from behind."
+    n "Willie is grinning, lips stretched ear to ear, and his emotionless pitch black eyes fix robotically onto Oswald."
     o "N-non-nothin boss I was just-"
     m "hoHO! Of course not! You wouldn't want to get into any more trouble with me."
     m "Would you Oz?"

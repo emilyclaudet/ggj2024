@@ -12,7 +12,7 @@ label chapter3_laundry:
     scene laundryroom with dissolve
     n "You and Oz have been sorting piles of laundry in silence for the past 20 minutes. All the clothing is just exact copies of what you saw your fellow inmates wearing, so it's pretty easy to sort."
     n "Even easier than that because Oz wouldn't let you touch any of the clothes before he sorted all of his out."
-    show osbald with dissolve
+    show osbaldmuscle with dissolve
     menu:
         "So hows the…":
             oz "..."
@@ -41,12 +41,12 @@ label chapter3_laundry2:
             jump chapter3_laundry3
 
 label chapter3_laundry3:
-    show osbaldmuscle badsurprisedred with dissolve
+    show osbald musclebadsurprisedred with dissolve
     n "Oz looks up and his eyes widen in terror, his face turns red as a tomato."
     oz "HEY!!!"
     n "Oz snatches the costume out of your hands and frantically looks for a place to hide it."
     n "He clumsy waddles to the far end of the room and stuffs the suit behind the furthest laundry machine and turns back to you."
-    show osbaldmuscle upset with dissolve
+    show osbald muscleupset with dissolve
     oz "YOU DIDN'T SEE NOTHIN KID!"
 
     menu:
@@ -56,37 +56,37 @@ label chapter3_laundry3:
             jump chapter3_laundry4
 
 label chapter3_laundry4:
-    show osbaldmuscle badsurprised with dissolve
+    show osbald musclebadsurprised with dissolve
     oz "Why you little..."
-    show osbaldmuscle upset with dissolve
+    show osbald muscleupset with dissolve
     n "Oz waddles back up to you."
     oz "C'mon! whadda I gotta do ta' get you to not blab?"
     menu chapter3_laundry4_menu:
         "Why do you wear a muscle tee.":
             oz "Tsk Why da ya think kid?"
-            show osbaldmuscle badsurprised with dissolve
+            show osbald musclebadsurprised with dissolve
             oz "Have you seen the folks here? Freaks! Bafoons!"
-            show osbaldmuscle with dissolve
+            show osbald muscle with dissolve
             oz "That one kid wit da spiky hair, he's got some screws loose for sure! I can't even understand what he's sayin half the time."
-            show osbaldmuscle upset with dissolve
+            show osbald muscleupset with dissolve
             oz "And dat one dame wit all da legs! Honestly, what she need them all for, and the way her 'kids' look at me."
             n "Oz shudders"
-            show osbaldmuscle with dissolve
+            show osbald muscle with dissolve
             oz "Never heard of a spida eatin a rabbit but naaah. I don't like it one bit."
-            show osbaldmuscle evilgrin with dissolve
+            show osbald muscleevilgrin with dissolve
             oz "Ya gotta look tough ta live around here kid… That's why you can't tell anyone."
             jump chapter3_laundry4_menu
         "Do you and the warden know eachother?":
-            show osbaldmuscle surprised with dissolve
+            show osbald musclesurprised with dissolve
             oz "Ya don't know?"
             oz "What baloney are they teachin you kids nowadays?"    
 
     #CG HERE
-    show osbaldmuscle with dissolve
+    show osbald muscle with dissolve
     oz "All ya need to know is that once I had everything."
-    show osbaldmuscle upset with dissolve
+    show osbald muscleupset with dissolve
     oz "And that rat took it all from me."
-    show osbaldmuscle badsurprised with dissolve
+    show osbald musclebadsurprised with dissolve
     oz "I WAS FIRST! YA HEAR?"
     n "You nodd along..."
     oz "DAT BASTARD. I HAD DA WORLD IN MY PAWS AND HE TOOK IT ALL AWAY!"
@@ -94,28 +94,28 @@ label chapter3_laundry4:
 
     #CG STOPS
     oz "I’M NOTHIN! I’m in a costume, a disguise!"
-    show osbaldmuscle upset with dissolve
+    show osbald muscleupset with dissolve
     oz "I’m hidin!"
-    show osbaldmuscle distantsad with dissolve
+    show osbald muscledistantsad with dissolve
     oz "But-"
     oz "But I guess it’s not like I need to… Even a nobody like yous knows who I am."
     oz "Who I was…"
-    hide osbaldmuscle distantsad with dissolve
+    hide osbald muscledistantsad with dissolve
     n "Oz looks down at his Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots, hands crossed infront of his foam chest."
     n "He suddenly stands much smaller, deflated."
     menu:
         "You reach out to hug him.":
-            show osbaldmuscle with dissolve
+            show osbald muscle with dissolve
             "Oz pulls away before you can touch him."
             jump chapter3_laundry5
         "...":
-            show osbaldmuscle with dissolve
+            show osbald muscle with dissolve
             jump chapter3_laundry5
 
 label chapter3_laundry5:
     oz "I said too much…"
     n "Oz turns back to sort laundry"
-    show osbaldmuscle upset with dissolve
+    show osbald muscleupset with dissolve
     oz "Hope you’re happy kid, cuz I’m not blabbin anymore."
     jump chapter3_books
 
@@ -126,18 +126,18 @@ label chapter3_books:
     m "Alright you filthy rats! It's time for ur next activity!"
     m "You need to clean up the mess in this library!"
     hide warden with dissolve
-    show osbaldmuscle upset with dissolve
+    show osbald muscleupset with dissolve
     oz "Can ya believe this? Every book in this library is about him. Whadda narcissist."
-    hide osbaldmuscle upset with dissolve
+    hide osbald muscleupset with dissolve
     n "You also realize that the title of every book you’ve sorted is credited to the warden."
     n "You and Oz continue to sort the books onto the infinitely stretching line of “M” shelves."
     menu:
         "Why don’t you take off the Muscle suit?":
-            show osbaldmuscle surprised with dissolve
+            show osbald musclesurprised with dissolve
             "Oz opens his mouth, ready to send another bitter rant your way, before pausing…"
-    show osbaldmuscle with dissolve
+    show osbald muscle with dissolve
     oz "Yer right. I can’t hide myself from you anymore."
-    hide osbaldmuscle with dissolve
+    hide osbald muscle with dissolve
     # update oswald asset
     n "Oz goes behind the shelf and comes back without the muscle suit. He suddenly looks much more familiar to you."
     show osbald with dissolve
@@ -146,12 +146,11 @@ label chapter3_books:
         "You’re Osbald the Fortunate Rodent!":
             show osbald surprisedblushing with dissolve
             "You see Osbald's mouth drop and his eyes filled with shock and awe for just a moment before returning back to his normal grimmace."
-    show osbald wiht dissolve
+    show osbald with dissolve
     o "So they do teach you kids something…"
     hide osbald with dissolve
     n "You run eventually run out of room on the shelves close enough to the door that you feel comfortable going to. Osbald brings out a ladder to reach the higher shelves"
     n "You volunteer to be the one at the top of the ladder, Osbald holds it at the bottom to keep you steady."
-    show
     show osbald with dissolve
     o "So you know who I am."
     show osbald distantsad with dissolve
