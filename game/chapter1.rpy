@@ -30,10 +30,10 @@ label kagami_optionA:
     menu:
         "Ask him his name.":
             u "..."
-    show kagami back with dissolve
+    show kagami with dissolve
     u "... ..."
     u "... ... ..."
-    show kagami with dissolve
+    show kagami annoyed with dissolve
     u "You've lost the privilege of learning my name. It is a word carrying the weight and brutality within this prison ward."
     u "Uttering it, even for a moment, would cause this prison society to cave in."
     menu:
@@ -49,10 +49,14 @@ label kagami_optionA:
             n "You felt a bit bad for breaking the illusion of “coolness” for this guy. Though he was a bit cringe, he was an entertaining and oddly vibrant breath of fresh air in this otherwise dulled and surreal hellscape."
     n "Cringelord shifts his gaze upwards..."
     c "Kagami…"
+    show kagami with dissolve
     k "It's not nice to meet you - but I suppose, having a lackey understand the beauty of my power is worthwhile."
     n "Kagami gets up from his seat, getting ready to leave before he turns around to face [playername] again."
+    show kagami happy with dissolve
     k "But just know, that next time, I'll turn you into toad oil if you get on my bad side again."
-    "[playername] watches Kagami leave. They felt bewildered but decided to not think about the weird guy anymore and instead focused on the weird dystopian slop on his plate…known as a bhocolate bhip bookie."
+    hide kagami with dissolve
+    n "You watch Kagami leave. You felt bewildered but decided to not think about the weird guy anymore and instead focused on the weird dystopian slop on his plate…known as a bhocolate bhip bookie."
+    # add sound effect
     n "Bell rings and it's time for him to do an activity!-"
     jump chapter1end
 

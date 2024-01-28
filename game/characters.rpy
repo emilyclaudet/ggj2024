@@ -12,9 +12,35 @@ define oz = Character("Oz", color="#037cb5")
 define n = Character(None, what_italic=True)
 
 #Kagami
-image kagami = "anime_villain_concept"
-image kagami stern = "anime_villain_concept2"
-image kagami back = "anime_villain_conceptback"
+image kagami neutral = "kagami_neutral"
+image kagami blink = "kagami_neutralblink"
+image kagami smile = "kagami_smile"
+image kagami smileblink = "kagami_smileblink"
+image kagami smirk = "kagami_smirk"
+image kagami smirkblink = "kagami_smirkblink"
+
+#Kagami animations
+image kagami:
+    "kagami neutral"
+    3
+    "kagami blink"
+    0.2
+    repeat
+
+image kagami happy:
+    "kagami smile"
+    3
+    "kagami smileblink"
+    0.2
+    repeat
+
+image kagami annoyed:
+    "kagami smirk"
+    3
+    "kagami smirkblink"
+    0.2
+    repeat
+
 
 #Osbald
 image osbald = "oswald_n_neutral"

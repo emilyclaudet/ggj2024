@@ -2,7 +2,7 @@
 
 label chapter2:
     scene courtyard_trash with dissolve
-    n "You are in the courtyard area. There are trash bags piled to the sky."
+    n "You are in the courtyard area. There are many piles of trash bags."
     show warden with dissolve
     m "Ha ha! C'mooon fellas, it's time to pick up the trash if you want your next meal!"
     hide warden with dissolve

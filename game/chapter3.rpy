@@ -139,7 +139,7 @@ label chapter3_books:
             jump chapter3_books2
 
 label chapter3_books2:
-    n "Despite your pleas and attempt to hang, you feel yourself slip and fall. You squeeze your eyes shut and wait for your head to break on the hard "Willie the Warden" themed floor tiling."
+    n "Despite your pleas and attempt to hang, you feel yourself slip and fall. You squeeze your eyes shut and wait for your head to break on the hard 'Willie the Warden' themed floor tiling."
     n "But you don’t"
     n "Instead you feel two very soft paws cradling you."
     n "You open your eyes..."

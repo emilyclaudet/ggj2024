@@ -8,16 +8,16 @@ label intro:
     show queen with dissolve
     m "the most dastardly!"
     hide queen with dissolve
-    show osbald with dissolve
+    show osbald at right with dissolve
     m "the most deceiving!"
     hide osbald with dissolve
-    show kagami with dissolve
+    show kagami at right with dissolve
     m "the most conniving!"
     m "convicts you will ever lay your eyes on...!"
     hide kagami with dissolve
     show warden at center with moveinright
+    m "And what does the criminal, [playername], have to say for themselves?"
     menu:
-        m "And what does the defendent, [playername], have to say for themselves?"
         "I didn’t do anything wrong!":
             m "You know what you did! Don’t act like you don’t belong."
         "Woah- This place is so weird!":
