@@ -41,10 +41,12 @@ label chapter3_laundry2:
             jump chapter3_laundry3
 
 label chapter3_laundry3:
+    show osbald surprisedred with dissolve
     n "Oz looks up and his eyes widen in terror, his face turns red as a tomato."
     oz "HEY!!!"
     n "Oz snatches the costume out of your hands and frantically looks for a place to hide it."
     n "He clumsy waddles to the far end of the room and stuffs the suit behind the furthest laundry machine and turns back to you."
+    show osbald badsurprisedred with dissolve
     oz "YOU DIDN'T SEE NOTHIN KID!"
 
     menu:
@@ -54,12 +56,15 @@ label chapter3_laundry3:
             jump chapter3_laundry4
 
 label chapter3_laundry4:
+    show osbald badsurprised with dissolve
     oz "Why you little..."
     n "Oz waddles back up to you."
     oz "C'mon! whadda I gotta do ta' get you to not blab?"
     menu chapter3_laundry4_menu:
         "Why do you wear a muscle tee.":
+            show osbald with dissolve
             oz "Tsk Why da ya think kid?"
+            show osbald distantsad with dissolve
             oz "Have you seen the folks here? Freaks! Bafoons!"
             oz "That one kid wit da spiky hair, he's got some screws loose for sure! I can't even understand what he's sayin half the time."
             oz "And dat one dame wit all da legs! Honestly, what she need them all for, and the way her 'kids' look at me."
