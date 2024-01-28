@@ -65,9 +65,9 @@ label chapter2:
     jump chapter2_mopping
 
 label chapter2_mopping:
-    scene black with dissolve
+    scene canteen with dissolve
     show warden with dissolve
-    m "Now that the trash has been cleared it's time to mop some floors! Have a swell ol time ha ha!"
+    m "Now that the trash has been cleared it's time to mop the canteen floors! Have a swell ol time ha ha!"
     hide warden with dissolve
     show queen annoyed with dissolve
     q "Finally this hell will be over soon! I cannot have my fair webs in a tangle from all this muck!!"

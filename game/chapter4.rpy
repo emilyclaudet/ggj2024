@@ -32,7 +32,7 @@ label chapter4_bracelet1:
     n "You grimace at the thought of crunching on beads–though, oddly enough they do seem…tempting to give a little cronch..."
     n "You sit next to Kagami as he hands you a plastic baggie filled with various crunch-able beads and slurpable string."
     n "Kagami looks at you and gives a cheeky grin before you both work on your bracelets..."
-    #a cooking timer sound effect and then the image of the friendship bracelets are shown
+    scene kagami_bracelet with dissolve
     n "You make a scrumdiddlyum bracelet!--Wait, DON’T ACTUALLY EAT IT!!"
     jump chapter4_bracelet2
 
@@ -45,7 +45,7 @@ label chapter4_bracelet2:
     n "Kagami grins and tosses a few “decorative orbs” and string at you."
     k "Then I'll be sure to not hold back on my bracelet creations– I'm going all out!"
     n "You and Kagami fling around orbs and strings in a flurry of excitement."
-    #a cooking timer sound effect and then the image of the friendship bracelets are shown
+    scene kagami_bracelet with dissolve
     n "(You make a quirky and fun bracelet!)"
     jump chapter4_bracelet3
 
@@ -60,7 +60,7 @@ label chapter4_bracelet3:
     k "AHEM, these strings are the webs of friendship; if a bracelet dares to break, it would cause the world to combust in seconds."
     #his bracelet breaks
     k "Uh...in other universes, I mean.”  “YES–The world of Eorzea is done for, shattered to PIECES. You could even say, that was truly their…Final Fantasy."
-    #a cooking timer sound effect and then the image of the friendship bracelets are shown
+    scene kagami_bracelet with dissolve
     n "(You make a destructive and world-ending bracelet!)"
     jump ending_choice
 

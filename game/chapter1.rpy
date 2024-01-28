@@ -1,6 +1,7 @@
 label chapter1:
     scene prison with dissolve
     show warden neutraltalk with dissolve
+    play sound bell
     m "Alrighty, folks!"
     m "Make your way to the mess hall! Can't work on an empty stomach!"
     scene canteen with dissolve
@@ -55,7 +56,8 @@ label kagami_optionA:
     n "Defeated, Cringelord hangs his head."
     menu:
         "Relax, I was just testing you like you did me earlier.--I'm [playername]":
-            n "You felt a bit bad for breaking the illusion of “coolness” for this guy. Though he was a bit cringe, he was an entertaining and oddly vibrant breath of fresh air in this otherwise dulled and surreal hellscape."
+            n "You felt a bit bad for breaking the illusion of “coolness” for this guy."
+            n "Though he was a bit cringe, he was an entertaining and oddly vibrant breath of fresh air in this otherwise dulled and surreal hellscape."
     n "Cringelord shifts his gaze upwards..."
     c "Kagami…"
     show kagami with dissolve
@@ -64,9 +66,8 @@ label kagami_optionA:
     show kagami happy with dissolve
     k "But just know, that next time, I'll turn you into toad oil if you get on my bad side again."
     hide kagami with dissolve
-    n "You watch Kagami leave. You felt bewildered but decided to not think about the weird guy anymore and instead focused on the weird dystopian slop on his plate…known as a bhocolate bhip bookie."
-    play sound bell
-    n "Bell rings and it's time for him to do an activity!-"
+    n "You watch Kagami leave."
+    n "You felt bewildered but decided to not think about the weird guy anymore and instead focused on the weird dystopian slop on his plate…known as a bhocolate bhip bookie."
     jump chapter1end
 
 label kagami_optionB:
@@ -231,7 +232,6 @@ label chapter1end:
     m "Haha I'm joking."
     show warden happy with dissolve
     m "Anyways! Back to your regularly scheduled programming!"
-    play sound bell
     jump chapter2
 
 
