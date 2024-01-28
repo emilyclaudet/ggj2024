@@ -42,13 +42,48 @@ image warden bashful = "bashful_warden"
 image warden excited = "excited_warden"
 
 #Femme disney villain
-image queen = "1Queen_Neutral"
+image queen neutral = "1Queen_Neutral"
 image queen blink = "1Queen_Neutral_blink"
-image queen happy = "2Queen_Happy"
+image queen happy2 = "2Queen_Happy"
 image queen annoyedblink "3Queen_Annoyed_blink"
-image queen annoyed = "3Queen_Annoyed"
+image queen annoyed2 = "3Queen_Annoyed"
 image queen sad = "4Queen_Sad"
 image queen bashfulblink = "5Queen_Bashful_blink"
-image queen bashful = "5Queen_Bashful"
+image queen bashful2 = "5Queen_Bashful"
 image queen flirtyblink = "6Queen_Flirty_blink"
 image queen flirty = "6Queen_Flirty"
+
+image queen:
+    "queen neutral"
+    3
+    "queen blink"
+    0.2
+    repeat
+
+image queen happy:
+    "queen happy2"
+    3
+    "queen blink"
+    0.2
+    repeat
+
+image queen annoyed:
+    "queen annoyed2"
+    3
+    "queen annoyedblink"
+    0.2
+    repeat
+
+image queen bashful:
+    "queen bashful2"
+    3
+    "queen bashfulblink"
+    0.2
+    repeat
+
+image queen flirt:
+    "queen flirty"
+    3
+    "queen flirtyblink"
+    0.2
+    repeat
