@@ -145,11 +145,11 @@ label ending_osbald:
     o "HEY RAT!!!"
     show osbald evilgrin at center with moveinright
     n "Osbald rips of his hat and overcoat in one swift motion."
-    show osbald muscleevilgrin with dissolve
+    scene endcg_osbald with dissolve
     o "Keys Kid!" with vpunch
     n "In the wardens shock you’re able to swipe the keys from his belt and throw them to Osbald."
+    scene endcg_osbaldkey with dissolve
     n "No turning back now."
-    show osbald muscle with dissolve
     o "Tell the whole world: OSBALDS BACK!!!"
     jump end 
 
