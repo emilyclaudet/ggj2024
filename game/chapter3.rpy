@@ -119,9 +119,8 @@ label chapter3_laundry5:
     oz "Hope you’re happy kid, cuz I’m not blabbin anymore."
     jump chapter3_books
 
-#books chapter
 label chapter3_books:
-    scene black with dissolve
+    scene library with dissolve
     show warden with dissolve
     m "Alright you filthy rats! It's time for ur next activity!"
     m "You need to clean up the mess in this library!"
@@ -138,7 +137,6 @@ label chapter3_books:
     show osbald muscle with dissolve
     oz "Yer right. I can’t hide myself from you anymore."
     hide osbald muscle with dissolve
-    # update oswald asset
     n "Oz goes behind the shelf and comes back without the muscle suit. He suddenly looks much more familiar to you."
     show osbald with dissolve
     oz "It’s easier to move like this."

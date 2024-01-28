@@ -174,10 +174,14 @@ label ending_queen:
     p "?!"
     "The Queen pricks you with one of her sharp spidery legs…you feel nauseous?? The world is fading."
     q "Little worm are you alright?"
-    "You wake up..something feels different."
-    "?!"
-    "You have spider limbs now."
-    "So cool and epic???"
+    n "You wake up..something feels different."
+    scene spiderend with dissolve
+    n "?!"
+    scene spiderend2 with dissolve
+    n "You have spider limbs now."
+    n "So cool and epic???"
+    scene gym with dissolve
+    show queen happy with dissolve
     q "You are now able to understand my ancient spider tongue?"
     menu:
         "Understand you perfectly <33":
@@ -210,6 +214,7 @@ label ending_queen:
         "YEEEAHAHAHAHAHHHAHAHAHAH!!!":
             show queen flirt with dissolve
             q "Exquisite reaction, I knew you’d be thrilled."   
+    scene spiderend3 with dissolve
     n "You and Queen Arachnificient escape together with your legion of spider minions. It’s a bloody battle. Many get killed or turned into spiders."
     n "Is there anyone who will stop you both?"
     n "Perhaps, perhaps not."
