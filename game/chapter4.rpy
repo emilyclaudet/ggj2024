@@ -1,5 +1,6 @@
 label chapter4:
     scene prison with dissolve
+    play sound bell
     show warden happytalk with dissolve
     m "Good morning!"
     show warden neutraltalk with dissolve
@@ -32,8 +33,9 @@ label chapter4_bracelet1:
     p "No..but.."
     n "You grimace at the thought of crunching on beads–though, oddly enough they do seem…tempting to give a little cronch..."
     n "You sit next to Kagami as he hands you a plastic baggie filled with various crunch-able beads and slurpable string."
+    hide kagami with dissolve
     n "Kagami looks at you and gives a cheeky grin before you both work on your bracelets..."
-    scene kagami_bracelet with dissolve
+    show activity1 with dissolve
     n "You make a scrumdiddlyum bracelet!--Wait, DON’T ACTUALLY EAT IT!!"
     jump chapter4_bracelet2
 
@@ -50,7 +52,8 @@ label chapter4_bracelet2:
     n "Kagami grins and tosses a few “decorative orbs” and string at you."
     k "Then I'll be sure to not hold back on my bracelet creations– I'm going all out!"
     n "You and Kagami fling around orbs and strings in a flurry of excitement."
-    scene kagami_bracelet with dissolve
+    hide kagami with dissolve
+    show activity2 with dissolve
     n "(You make a quirky and fun bracelet!)"
     jump chapter4_bracelet3
 

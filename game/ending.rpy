@@ -1,5 +1,6 @@
 label ending_choice:
     scene prison with dissolve
+    play sound bell
     show warden happy with dissolve
     pause 1.0
     show warden happytalk with dissolve

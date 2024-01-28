@@ -3,6 +3,7 @@
 label chapter3:
     scene prison with dissolve
     show warden happytalk with dissolve
+    play sound bell
     m "It's time to wake up! Another day, another chance to have fun!"
     m "Let's get going before I lose my temper, you wouldn't want me to lose my temper would you? Hah! Just kidding!"
     hide warden with dissolve

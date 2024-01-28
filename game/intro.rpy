@@ -2,6 +2,7 @@ label intro:
     scene black
     n "The warden is bringing you to your cell after you have been 'sentenced.'"
     scene prison with dissolve
+    play music maintheme
     show warden happy with dissolve
     pause 1.5
     show warden happytalk with dissolve
