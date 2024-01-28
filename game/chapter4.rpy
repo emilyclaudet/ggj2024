@@ -55,7 +55,7 @@ label chapter4_bracelet2:
     jump chapter4_bracelet3
 
 label chapter4_bracelet3:
-    scene library with dissolve
+    scene prison with dissolve
     n "Another bracelet making session..."
     show kagami happy with dissolve
     k "Everything is not daijoubou, [playername]."

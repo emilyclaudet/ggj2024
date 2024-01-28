@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter4.rpy", line 7, in script
-    show warden neutral with dissolve
-Exception: Image 'warden' does not accept attributes 'neutral'.
+  File "game/ending.rpy", line 243, in script
+    show osbald surprisedred with dissolve
+Exception: Image 'osbald' does not accept attributes 'surprisedred'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter4.rpy", line 7, in script
-    show warden neutral with dissolve
+  File "game/ending.rpy", line 243, in script
+    show osbald surprisedred with dissolve
   File "/Applications/renpy-8.1.3-sdk/renpy/ast.py", line 1428, in execute
     show_imspec(self.imspec, atl=getattr(self, "atl", None))
   File "/Applications/renpy-8.1.3-sdk/renpy/ast.py", line 1391, in show_imspec
@@ -22,9 +22,9 @@ Full traceback:
     args.extraneous()
   File "/Applications/renpy-8.1.3-sdk/renpy/display/core.py", line 362, in extraneous
     raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'warden' does not accept attributes 'neutral'.
+Exception: Image 'osbald' does not accept attributes 'surprisedred'.
 
 macOS-14.2.1-arm64-arm-64bit arm64
 Ren'Py 8.1.3.23091805
 theprisoner 1.0
-Sun Jan 28 13:14:11 2024
+Sun Jan 28 15:04:45 2024

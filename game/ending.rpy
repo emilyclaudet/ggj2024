@@ -264,6 +264,7 @@ label ending_warden:
             show warden bashful with dissolve
             m "Really?"
         "Why wouldn’t I?":
+            show warden bashful with dissolve
             m "..."
     show warden happytalk with dissolve
     m "Well, if you really want to work out with me- I’d be happy to lend you a hand..."
@@ -284,10 +285,10 @@ label ending_warden2:
             show warden reformedbashful with dissolve 
             m "Me too."
         "Maybe one day… I still think we both have growing to do.":
-            show warden happyblink with dissolve
+            show warden reformedhappyblink with dissolve
             m "I understand. I hope we can keep meeting like this? Until next year?"
         "I’m sorry, but I don’t think that’s possible.":
-            show warden happyblink with dissolve
+            show warden reformedhappyblink with dissolve
             m "That’s fair. Hey, take care will yah?"
     jump end
 
