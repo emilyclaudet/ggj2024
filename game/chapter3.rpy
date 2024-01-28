@@ -67,30 +67,37 @@ label chapter3_laundry4:
             show osbald distantsad with dissolve
             oz "Have you seen the folks here? Freaks! Bafoons!"
             oz "That one kid wit da spiky hair, he's got some screws loose for sure! I can't even understand what he's sayin half the time."
+            show osbald badsurprised with dissolve
             oz "And dat one dame wit all da legs! Honestly, what she need them all for, and the way her 'kids' look at me."
             n "Oz shudders"
-            n "Never heard of a spida eatin a rabbit but naaah. I don't like it one bit."
-            n "Ya gotta look tough ta live around here kid… That's why you can't tell anyone."
+            oz "Never heard of a spida eatin a rabbit but naaah. I don't like it one bit."
+            oz "Ya gotta look tough ta live around here kid… That's why you can't tell anyone."
             jump chapter3_laundry4_menu
         "Do you and the warden know eachother?":
+            show osbald distantsad with dissolve
             oz "Ya don't know?"
+            show osbald badsurprised with dissolve
             oz "What baloney are they teachin you kids nowadays?"    
 
     #CG HERE
-    scene black with dissolve
-    show osbald with dissolve
+    show osbald distantsad with dissolve
     oz "All ya need to know is that once I had everything."
+    show osbald upset with dissolve
     oz "And that rat took it all from me."
+    show osbald badsurprised with dissolve
     oz "I WAS FIRST! YA HEAR?"
-    "You nodd along"
+    n "You nodd along..."
+    show osbald badsurprisedred with dissolve
     oz "DAT BASTARD. I HAD DA WORLD IN MY PAWS AND HE TOOK IT ALL AWAY!"
     oz "NOW LOOK AT ME!"
 
     #CG STOPS
     oz "I’M NOTHIN! I’m in a costume, a disguise!"
     oz "I’m hidin!"
+    show osbald with dissolve
     oz "But-"
     oz "But I guess it’s not like I need to… Even a nobody like yous knows who I am."
+    show osbald distantsad with dissolve
     oz "Who I was…"
     n "Oz looks down at his Size 35 Meher Kakalia Queen Bauhaus Point - Shiny Black Boots, hands crossed infront of his foam chest."
     n "He suddenly stands much smaller, deflated."

@@ -1,10 +1,18 @@
 label chapter1:
+    scene prison with dissolve
+    show warden neutraltalk with dissolve
+    m "Alrighty, folks!"
+    m "Make your way to the mess hall! Can't work on an empty stomach!"
     scene canteen with dissolve
-    m "Alrighty, folks! Make your way to the mess hall! Can't work on an empty stomach!"
-    show warden with dissolve
-    m "Hey there! You look lost! We have loads of new… Erm- friends you can make! Just look over there!"
-    m "Don't they look nice? Why don't you go and talk to them?"
+    show warden happytalk with dissolve
+    m "Hey there! You look lost! We have loads of new…"
+    show warden neutraltalk with dissolve
+    m "Erm- friends you can make! Just look over there!"
     hide warden with dissolve
+    show queen with dissolve
+    show osbald at center with dissolve
+    show kagami at left with dissolve 
+    m "Don't they look nice? Why don't you go and talk to them?"
     menu: 
         "Sit next to gangster dude":
             jump chapter1_oswald
